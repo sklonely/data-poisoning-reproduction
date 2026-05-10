@@ -1,58 +1,33 @@
-# Model checkpoints — dropzone
+# Model checkpoints — A01–A10 poisoned datasets
 
-This folder is **gitignored** apart from this README. Drop poisoned-dataset
-`.pkl` files, victim-model weights, and pretrained classifier checkpoints
-here when you fetch them from HPC. The figure builders and victim trainers
-will pick them up automatically.
+This folder holds the **exported poisoned datasets** for the 10 ConvNetBN cells
+behind our Figure 4 reproduction. Drop one into a victim trainer and you get an
+ASR vote in ~15 min on a single GPU — no crafting required.
 
-## Where the real artefacts live
+The actual `.pkl` files are gitignored (10 × 704 MB = 6.9 GB, too heavy for
+plain git). They're distributed out-of-band via a cloud share.
 
-We don't push the heavy files to GitHub (700 MB per poisoned dataset × 10
-ConvNetBN cells = ~7 GB). They live on the OSU HPC share:
+## Quick start for collaborators
 
-```
-/nfs/hpc/share/chanc7/metapoison/
-  outputs-phase-a/local/craft-A{01..30}/<run-uid>/assets/*ckpt-*  # model + poison ckpts per craftstep
-  exports/A{01..30}-poisondataset.pkl                              # exported poisoned datasets (704 MB each)
-  pretrain/resnet20-cifar10.pt                                     # Phase-D pretrained classifier
-```
+1. Read [MANIFEST.md](MANIFEST.md) — table of what each `A01..A10` cell is, plus the cloud-share URL.
+2. Download the cells you want into this folder (`checkpoints/`).
+3. Verify integrity: `sha256sum -c SHA256SUMS` (every line should end with `OK`).
+4. Train a victim on a pulled cell — see the example commands in [MANIFEST.md](MANIFEST.md).
 
-## Pulling one cell to local
+## What's in this folder
 
-```bash
-# Pull the poisoned dataset for ConvNetBN dog→bird @ 1% budget (cell A03)
-rsync -avzP \
-  chanc7@submit.hpc.engr.oregonstate.edu:/nfs/hpc/share/chanc7/metapoison/exports/A03-poisondataset.pkl \
-  checkpoints/
-```
+| Tracked in git  | What                                                                    |
+|-----------------|-------------------------------------------------------------------------|
+| ✅ `README.md`   | This file                                                               |
+| ✅ `MANIFEST.md` | Cell → arch/pair/budget table, cloud URL, recommended-use guide         |
+| ✅ `SHA256SUMS`  | Integrity hashes for the 10 pkl files                                   |
+| ❌ `A*.pkl`      | Gitignored — pull from the cloud link in MANIFEST.md                    |
 
-## Using a pulled poisoned dataset
+## Other artefact types (not yet distributed)
 
-```bash
-# TF victim (paper-faithful)
-.venv-tf-compat\Scripts\python.exe official-metapoison\victim.py \
-  A03-victim-local -artifactroot runs-local -workspace local \
-  -gpu 0 -net ConvNetBN -targetclass 2 -ytargetadv 5 -targetids 0 \
-  -nbatch 400 -batchsize 125 -npoison 500 \
-  -loadpoisondataset checkpoints/A03-poisondataset.pkl
-
-# PyTorch victim (consistency check)
-.venv-torch-local\Scripts\python.exe -m metapoison_hpc.torch_victim \
-  --dataset checkpoints/A03-poisondataset.pkl \
-  --arch resnet20 --epochs 200 --augment --trials 6 \
-  --output checkpoints/A03-torch-results.json
-```
-
-## What "checkpoint" means here
-
-| Artefact                          | What it is                                      | Typical size |
-|-----------------------------------|-------------------------------------------------|--------------|
-| `A{cell}-poisondataset.pkl`       | All 50 000 CIFAR-10 train images with the npoison-many poisoned ones substituted in, plus the held-out target image | 704 MB |
-| `outputs-phase-a/.../assets/poisoninputs-N` | Crafted poison pixels at craftstep N (intermediate; you usually want the final one) | ~60 MB / step |
-| `outputs-phase-a/.../assets/weights-N` | Surrogate model weights at craftstep N | ~few MB |
-| `pretrain/resnet20-cifar10.pt`    | Pretrained victim classifier (Phase D / fine-tune scheme only) | ~5 MB |
-
-For reproducing **Figure 4 directly** (the headline result), you don't need
-any of these — the aggregated `metrics.jsonl` files under `hpc-results/` are
-enough to rebuild the plot. You only need the heavy artefacts if you want to
-re-train a victim from a poisoned dataset, or re-craft from scratch.
+The crafted-poison checkpoints (intermediate craftsteps, surrogate model
+weights, pretrained Phase-D classifier) all live on the OSU HPC share under
+`/nfs/hpc/share/chanc7/metapoison/`. None of them are needed to reproduce the
+headline Figure 4 — only the exported poisoned datasets (above) are. The
+aggregated `metrics.jsonl` files in `hpc-results/` are enough to rebuild the
+plot without re-training anything.
