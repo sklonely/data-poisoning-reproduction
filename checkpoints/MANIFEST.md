@@ -48,6 +48,10 @@ and **A08** (frog→airplane @1%) pkls if you just want to confirm the "100% ASR
 at 1% budget" claim — those are the two most striking cells. The rest let you
 sweep the whole budget curve.
 
+**Step-by-step single-GPU reproduction:** [../docs/REPRODUCE_LEVEL2.md](../docs/REPRODUCE_LEVEL2.md)
+walks through downloading A03, verifying the SHA256, setting up the venv, running
+the victim, and reading off the ASR. ~15 min for a single trial.
+
 ```bash
 # Pull A03 only (the headline 1% cell)
 # (download from cloud share, drop into checkpoints/)

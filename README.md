@@ -26,6 +26,8 @@ our reproduction (left) side-by-side with the cropped paper figure (right).
 
 **Collaborators**: read [docs/CELLS.md](docs/CELLS.md) first — it's the decoder
 ring for `A01`–`A30` cell codes and the `A03_t2_s5` victim-run naming convention.
+Then jump to [docs/REPRODUCE_LEVEL2.md](docs/REPRODUCE_LEVEL2.md) for the
+single-GPU walkthrough that verifies one cell in ~15 min.
 
 ---
 
