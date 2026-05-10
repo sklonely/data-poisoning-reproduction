@@ -149,7 +149,7 @@ The JSON output (`checkpoints/A03-my-replication.json`) summarizes everything:
 ```
 
 That's ~1.5 h on one GPU. The `summary.asr` field in the JSON is your
-single-architecture ASR estimate (denominator 6, paper uses 60).
+single-architecture ASR estimate (denominator 6; we report 30, paper uses 60).
 
 ---
 

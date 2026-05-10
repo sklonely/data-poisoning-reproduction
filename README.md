@@ -12,8 +12,11 @@ behind our CS 539 final-project reproduction. The focus is **Figure 4** of the p
 
 ## Headline result
 
-ConvNetBN, CIFAR-10, **n=30 votes per cell** (5 target images × 6 victim seeds; paper uses n=60 = 10 × 6).
-0% baseline is a separately-trained clean victim, not extrapolation.
+ConvNetBN, CIFAR-10, **n=30–36 votes per cell** (planned 30 = 5 target images
+× 6 victim seeds; paper uses n=60 = 10 × 6). A01–A04 actually have n=36 because
+target_id=0 was run twice (an early batch left 6 extra votes); the duplicates
+agree with the second batch so the reported ASR is unchanged. A05–A10 are
+clean n=30. 0% baseline is a separately-trained clean victim, not extrapolation.
 
 | Class pair      | 0%  | 0.01% (5) | 0.1% (50) | 1% (500) | 5% (2500) | 10% (5000) |
 |-----------------|-----|-----------|-----------|----------|-----------|------------|
