@@ -24,6 +24,9 @@ Direction-of-effect matches the paper Fig 4 ConvNetBN curve closely. See
 [report/figures/fig4_convnetbn_only.png](report/figures/fig4_convnetbn_only.png) for
 our reproduction (left) side-by-side with the cropped paper figure (right).
 
+**Collaborators**: read [docs/CELLS.md](docs/CELLS.md) first — it's the decoder
+ring for `A01`–`A30` cell codes and the `A03_t2_s5` victim-run naming convention.
+
 ---
 
 ## Repository layout
@@ -32,11 +35,12 @@ our reproduction (left) side-by-side with the cropped paper figure (right).
 official-metapoison/   Patched fork of Huang et al.'s TF code (the craft side)
 src/metapoison_hpc/    Our PyTorch victim + Phase-D feature-collision baseline
 experiments/           CSV manifests + generators for SLURM array sweeps
-report/                Figure builders, slide deck, paper-image extractors
+slurm/                 SLURM array templates + run_metapoison.sh
+report/                Figure builders + figures/ + paper-image extractors
+checkpoints/           Slide-deck snapshots (CHECKPOINT_2 markdown + PDF, EN + 中文)
 hpc-results/           Aggregated metrics (heavy artifacts are gitignored)
-*.sbatch               SLURM array templates used on OSU HPC
-osu-hpc.md             Notes on the HPC environment (V100/A40/H100 partitions)
-RESUME.md              Project state checkpoint (single source of truth)
+docs/                  RESUME.md (project state), osu-hpc.md, legacy HPC notes
+papers/                Reference PDFs (gitignored — not redistributable)
 ```
 
 ---
@@ -59,7 +63,7 @@ uv pip install --python .venv-torch-local\Scripts\python.exe `
 ```
 
 On HPC the equivalent venvs live under `/nfs/hpc/share/chanc7/metapoison/repo/.venv-tf`
-and `.venv-torch`. See [osu-hpc.md](osu-hpc.md) for the partition/QOS quirks.
+and `.venv-torch`. See [docs/osu-hpc.md](docs/osu-hpc.md) for the partition/QOS quirks.
 
 ---
 
@@ -76,7 +80,7 @@ and `.venv-torch`. See [osu-hpc.md](osu-hpc.md) for the partition/QOS quirks.
 
 The PyTorch victim was a **deliberate consistency check**, not a port-then-deploy.
 The augmentation ablation (job 20290350) showed that the TF↔PyTorch ASR gap collapses
-once augmentation is held constant; see `report/CHECKPOINT_2_zh.md` for the narrative.
+once augmentation is held constant; see [checkpoints/CHECKPOINT_2_zh.md](checkpoints/CHECKPOINT_2_zh.md) for the narrative.
 
 ---
 
@@ -105,14 +109,14 @@ checked in under `experiments/`.
 
 ```bash
 # Phase A: craft the 30 cells (3 archs × 2 class pairs × 5 budgets) for target_id=0
-sbatch hpc_array_craft.sbatch
+sbatch slurm/hpc_array_craft.sbatch
 
 # Phase A: 6-seed victim sweep for ConvNetBN cells (cell-major manifest)
-sbatch hpc_array_phase_a_n20_victim.sbatch
-sbatch hpc_array_phase_a_n30_fill.sbatch  # tops up to n=30 per cell
+sbatch slurm/hpc_array_phase_a_n20_victim.sbatch
+sbatch slurm/hpc_array_phase_a_n30_fill.sbatch  # tops up to n=30 per cell
 
 # 0% baselines (one TF clean victim per arch × class pair)
-sbatch hpc_clean_baselines.sbatch
+sbatch slurm/hpc_clean_baselines.sbatch
 
 # Build the headline figure
 .venv-torch-local/Scripts/python.exe report/build_fig4_convnetbn.py
@@ -126,7 +130,7 @@ files out of `hpc-results/staging-temp/outputs-phase-a/local/` and writes
 
 ## Known gotchas
 
-These are written down at the bottom of [RESUME.md](RESUME.md), but the most
+These are written down at the bottom of [docs/RESUME.md](docs/RESUME.md), but the most
 important three:
 
 1. **CUDA 12.2 needs TF 2.15** — TF 2.10 silently falls back to CPU on the OSU dgx2

@@ -40,7 +40,7 @@
 
 ## 投影片 3 — Round 1 vs Round 2：surrogate ensemble 大小是關鍵
 
-![fig1_craft_trajectory](figures/fig1_craft_trajectory.png)
+![fig1_craft_trajectory](../report/figures/fig1_craft_trajectory.png)
 
 - **Round 1**（1 GPU，nproc=1，nreplay=2 → **nmeta=2**）：cwT 在 0 附近震盪；攻擊訊號從未穩定壓到負值。
 - **Round 2**（4 GPUs mpirun，nproc=4，nreplay=4 → **nmeta=16**）：cwT 明確往負值漂移，到 craftstep 30 已經到 −1.5。
@@ -52,7 +52,7 @@
 
 ## 投影片 4 — Round 2 結果：TF 成功，但 PyTorch 出現異常
 
-![fig2_round2_tf_vs_pytorch](figures/fig2_round2_tf_vs_pytorch.png)
+![fig2_round2_tf_vs_pytorch](../report/figures/fig2_round2_tf_vs_pytorch.png)
 
 設定：ResNet，dog→bird，5000 poisons（10% budget），單一 target 圖片。Victim 從頭訓練 200 epochs。同一份 craft 出來的 poison 同時餵給兩個 framework 的 victim 看 ASR 是否一致。
 
@@ -66,7 +66,7 @@
 
 ## 投影片 5 — 復現結果 #2：ASR vs 投毒比例（Phase A）
 
-![fig3_phase_a_asr_vs_budget](figures/fig3_phase_a_asr_vs_budget.png)
+![fig3_phase_a_asr_vs_budget](../report/figures/fig3_phase_a_asr_vs_budget.png)
 
 ConvNetBN，dog→bird，4 個 budget 點（Phase A target_id=0，每點 n=6 seeds）：
 
@@ -95,11 +95,11 @@ parser.add_argument('-augment', action='store_true',
                     help='Use standard CIFAR-10 data augmentation')
 ```
 
-Round 2 TF victim 呼叫（[hpc_run_v2.sbatch:92-96](hpc_run_v2.sbatch#L92-L96)）沒帶 `-Xaugment`，[official-metapoison/victim.py:35](official-metapoison/victim.py#L35) 的 `if args.Xaugment: args.augment = True` 不觸發 → meta-graph 在 [official-metapoison/meta.py:116-117](official-metapoison/meta.py#L116-L117) 的 `if self.args.augment` 走 false-branch。實作本體（`pad → random_crop → random_flip_left_right`）在 [official-metapoison/utils.py:99-105](official-metapoison/utils.py#L99-L105)，但全程未啟用。
+Round 2 TF victim 呼叫（[slurm/hpc_run_v2.sbatch:92-96](slurm/hpc_run_v2.sbatch#L92-L96)）沒帶 `-Xaugment`，[official-metapoison/victim.py:35](official-metapoison/victim.py#L35) 的 `if args.Xaugment: args.augment = True` 不觸發 → meta-graph 在 [official-metapoison/meta.py:116-117](official-metapoison/meta.py#L116-L117) 的 `if self.args.augment` 走 false-branch。實作本體（`pad → random_crop → random_flip_left_right`）在 [official-metapoison/utils.py:99-105](official-metapoison/utils.py#L99-L105)，但全程未啟用。
 
 **PyTorch 端 victim 我們明確傳了 `--augment`**：
 
-[hpc_run_v2.sbatch:114-117](hpc_run_v2.sbatch#L114-L117)
+[slurm/hpc_run_v2.sbatch:114-117](slurm/hpc_run_v2.sbatch#L114-L117)
 ```bash
 python -m metapoison_hpc.torch_victim \
   --arch resnet20 --epochs 200 --augment --trials 3 ...
@@ -178,10 +178,10 @@ if augment:
 - `official-metapoison/` — 修補後的 fork（TF 2.15 compat、修好 ResNet bug、重新接通 VGG）
 - `src/metapoison_hpc/` — PyTorch victim trainer + CIFAR ResNet-20 實作
 - `experiments/manifest_phase_a*.csv` — 30 + 270 cell 的實驗格
-- `hpc_run.sbatch`、`hpc_array_craft*.sbatch`、`hpc_array_victim.sbatch` — SLURM 模板
+- `slurm/hpc_run.sbatch`、`slurm/hpc_array_craft*.sbatch`、`slurm/hpc_array_victim.sbatch` — SLURM 模板
 - `hpc-results/round1-job20240192/` — Round 1（失敗 baseline）的完整 logs 和 metrics
 - `hpc-results/round2-job20241084/` — Round 2（成功 paper-scale）的完整 logs、metrics 和 exported poisoned dataset
 - `hpc-results/phase-a-victims/` — Phase A 24 個 victim 實驗
-- `hpc_ablation_torch.sbatch` + HPC `outputs-ablation/{A,B,C}_*.json` — 投影片 6 的 augmentation ablation（job 20290350）
+- `slurm/hpc_ablation_torch.sbatch` + HPC `outputs-ablation/{A,B,C}_*.json` — 投影片 6 的 augmentation ablation（job 20290350）
 - `report/build_figures.py` — figure aggregator（隨著更多 victim 跑完可重新執行）
 - `RESUME.md` — 接續開工用的單一資訊源

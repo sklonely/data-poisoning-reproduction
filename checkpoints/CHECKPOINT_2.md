@@ -36,7 +36,7 @@ Implementation notes:
 
 ## Slide 3 — Round 1 vs Round 2: surrogate ensemble size matters
 
-![fig1_craft_trajectory](figures/fig1_craft_trajectory.png)
+![fig1_craft_trajectory](../report/figures/fig1_craft_trajectory.png)
 
 - **Round 1** (1 GPU, nproc=1, nreplay=2 → **nmeta=2**): cwT bounces around 0; attack signal never settles below threshold.
 - **Round 2** (4 GPUs mpirun, nproc=4, nreplay=4 → **nmeta=16**): cwT drifts decisively negative, reaching −1.5 by craftstep 30.
@@ -48,7 +48,7 @@ Implementation notes:
 
 ## Slide 4 — Key reproduction result #1: poison transfers to fresh-from-scratch victims
 
-![fig2_round2_tf_vs_pytorch](figures/fig2_round2_tf_vs_pytorch.png)
+![fig2_round2_tf_vs_pytorch](../report/figures/fig2_round2_tf_vs_pytorch.png)
 
 Setup: ResNet, dog→bird, 5000 poisons (10% budget), single target image. Victims trained from scratch for 200 epochs.
 
@@ -64,7 +64,7 @@ The cross-framework gap (100% → 33%) is consistent with paper §3.3's finding 
 
 ## Slide 5 — Key reproduction result #2: ASR vs poison budget (Phase A)
 
-![fig3_phase_a_asr_vs_budget](figures/fig3_phase_a_asr_vs_budget.png)
+![fig3_phase_a_asr_vs_budget](../report/figures/fig3_phase_a_asr_vs_budget.png)
 
 ConvNetBN, dog→bird, 4 budgets (Phase A target_id=0, n=6 seeds each):
 
@@ -124,7 +124,7 @@ All in `final project/` repo:
 - `official-metapoison/` — patched fork (TF 2.15 compat, fixed ResNet bug, re-enabled VGG)
 - `src/metapoison_hpc/` — PyTorch victim trainer + CIFAR ResNet-20 implementation
 - `experiments/manifest_phase_a*.csv` — 30 + 270 cell experiment grid
-- `hpc_run.sbatch`, `hpc_array_craft*.sbatch`, `hpc_array_victim.sbatch` — SLURM templates
+- `slurm/hpc_run.sbatch`, `slurm/hpc_array_craft*.sbatch`, `slurm/hpc_array_victim.sbatch` — SLURM templates
 - `hpc-results/round1-job20240192/` — Round 1 (failed) full logs and metrics
 - `hpc-results/round2-job20241084/` — Round 2 (success) full logs, metrics, and exported poisoned dataset
 - `hpc-results/phase-a-victims/` — 24 Phase A victim experiments

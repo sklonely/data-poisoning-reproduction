@@ -20,7 +20,7 @@ This document is the single source of truth for picking the project back up afte
 | Phase B (Fig 5 transfer) | ⏸ 0% — depends on Phase A ResNet/VGG13/ConvNetBN at 1% budget (have crafts; need victim runs) |
 | Phase C (Fig 7 alt schemes) | ⏸ 0% — code already exists in repo (`-objective xentC` and `-multiclasspoison` flags) |
 | Phase D (Fig 3 fine-tuning) | 🟡 **Code skeleton complete** (FC craft + fine-tune victim + pretrain script + manifests + sbatches all written and unit-tested); pretrain job 20299700 RUNNING |
-| Final report | ✅ Checkpoint Presentation 2 draft (`report/CHECKPOINT_2_zh.md` aligned to new narrative arc 2026-05-05) |
+| Final report | ✅ Checkpoint Presentation 2 draft (`checkpoints/CHECKPOINT_2_zh.md` aligned to new narrative arc 2026-05-05) |
 | Augmentation ablation (Fig 5 §3.3 axis) | ✅ job 20290350 done (3 conditions, A=0/3 ASR aug-on, B/C=3/3 aug-off) |
 | HPC active queue | 🟢 **2 jobs running**: 20299699 (Phase A victim t0 A05-A30, 156 tasks) + 20299700 (Phase D pretrain) |
 
@@ -68,7 +68,7 @@ This document is the single source of truth for picking the project back up afte
 | `hpc_array_phase_d_fc_victim.sbatch` | (NEW 2026-05-05) 360-task SLURM array for FC fine-tune victims |
 | `hpc_ablation_torch.sbatch` | augmentation ablation (job 20290350, 2026-05-04) |
 | `report/build_figures.py` | Result aggregator → produces Fig 1/2/3 |
-| `report/CHECKPOINT_2_zh.md` | Slide-deck draft (aligned to new narrative arc 2026-05-05) |
+| `checkpoints/CHECKPOINT_2_zh.md` | Slide-deck draft (aligned to new narrative arc 2026-05-05) |
 | `report/figures/fig1..3.png` | Built figures |
 
 ### 2.2 Experimental runs completed
@@ -111,7 +111,7 @@ Saved at `~/.claude/projects/d--HW-CS-539-final-project/memory/`:
 | Sub-task | Resume command (after `cd /nfs/hpc/share/chanc7/metapoison/`) |
 |---|---|
 | **A22 missing craft** (ResNet dog-bird 50 poisons, target_id=0) | `sbatch --array=22 hpc_array_craft.sbatch` |
-| **270 t1-t9 crafts** | `sbatch hpc_array_craft_extra.sbatch` (already configured `--array=1-270%6`; the nullglob guard now works so re-submitting is safe — already-done cells skip immediately) |
+| **270 t1-t9 crafts** | `sbatch slurm/hpc_array_craft_extra.sbatch` (already configured `--array=1-270%6`; the nullglob guard now works so re-submitting is safe — already-done cells skip immediately) |
 | **Victims for cells A05-A30** (the cells we have crafts for but no victims yet) | `sbatch --export=ALL,VICTIM_OFFSET=0 hpc_array_victim.sbatch` and continue with offsets 600 / 1200 once quota frees |
 | **Pull all artifacts back to local** | `tar -cf - outputs-phase-a/ | piped to local tar -xf -` (see `hpc_run_v2.sbatch` epilogue style) |
 
@@ -144,12 +144,12 @@ Cost: ~30 GPU-day
 
 | Sub-task | Status | Resume command |
 |---|---|---|
-| Pretrained CIFAR-10 ResNet-20 classifier | 🟡 RUNNING (job 20299700, ampere, ~1-3 hr) | `sbatch hpc_pretrain.sbatch` |
+| Pretrained CIFAR-10 ResNet-20 classifier | 🟡 RUNNING (job 20299700, ampere, ~1-3 hr) | `sbatch slurm/hpc_pretrain.sbatch` |
 | FC algorithm (Shafahi 2018 FBS) | ✅ implemented in `src/metapoison_hpc/feature_collision.py`; smoke test passes | — |
 | Fine-tune victim trainer | ✅ `src/metapoison_hpc/torch_finetune_victim.py` (load pretrained → fine-tune on clean ∪ poisons → ASR) | — |
 | Phase D manifests | ✅ 120 FC crafts + 360 victim runs (5 targets × 6 budgets × 2 class pairs × 2 watermark variants × 3 seeds) | — |
-| FC craft array job | ⏸ launches once pretrain finishes | `sbatch hpc_array_phase_d_fc_craft.sbatch` |
-| FC victim array job | ⏸ launches once FC crafts done | `sbatch hpc_array_phase_d_fc_victim.sbatch` |
+| FC craft array job | ⏸ launches once pretrain finishes | `sbatch slurm/hpc_array_phase_d_fc_craft.sbatch` |
+| FC victim array job | ⏸ launches once FC crafts done | `sbatch slurm/hpc_array_phase_d_fc_victim.sbatch` |
 | MetaPoison fine-tune-mode crafts (TF) | ⏸ TODO — `main.py -pretrain $PRETRAIN_KEY` invocation; sbatch not yet written | — |
 
 Cost remaining: ~10 GPU-day for FC craft+victim sweep + ~5 GPU-day for MetaPoison fine-tune crafts.
@@ -192,10 +192,12 @@ Local:
     official-metapoison/      # TF code (patched fork)
     src/metapoison_hpc/       # PyTorch victim
     experiments/              # manifest CSVs + generators
-    hpc_run*.sbatch           # SLURM templates
-    hpc-results/              # pulled artifacts (~3 GB)
-    report/                   # CHECKPOINT_2.md + figures + build script
-    RESUME.md                 # this file
+    slurm/                    # hpc_*.sbatch + run_metapoison.sh
+    hpc-results/              # pulled artifacts (~3 GB, gitignored heavy parts)
+    report/                   # figures + build scripts
+    checkpoints/              # CHECKPOINT_2.md / _zh.md / .pdf (slide-deck snapshots)
+    docs/                     # RESUME.md (this), osu-hpc.md, README_HPC.md
+    papers/                   # reference PDFs (gitignored)
 
 HPC (chanc7@submit.hpc.engr.oregonstate.edu):
   /nfs/hpc/share/chanc7/metapoison/
@@ -207,7 +209,7 @@ HPC (chanc7@submit.hpc.engr.oregonstate.edu):
     outputs-v2/               # round 2 (legacy)
     outputs-phase-a/          # Phase A craft + victim experiments
     logs/                     # SLURM stdout/stderr
-    hpc_*.sbatch              # uploaded SLURM templates
+    slurm/                    # uploaded SLURM templates
 ```
 
 ---
@@ -217,7 +219,7 @@ HPC (chanc7@submit.hpc.engr.oregonstate.edu):
 When picking up after a pause:
 
 1. `ssh osu-engr` — confirm SSH still works.
-2. `ssh -J osu-engr chanc7@submit.hpc.engr.oregonstate.edu "ls /nfs/hpc/share/chanc7/metapoison/"` — confirm share space wasn't cleaned. If it was, restore from `hpc-results/` + re-run `setup-official` from `run_metapoison.sh`.
+2. `ssh -J osu-engr chanc7@submit.hpc.engr.oregonstate.edu "ls /nfs/hpc/share/chanc7/metapoison/"` — confirm share space wasn't cleaned. If it was, restore from `hpc-results/` + re-run `setup-official` from `slurm/run_metapoison.sh`.
 3. Pull any unpulled craft artifacts back to local: `tar -czf - outputs-phase-a/local | piped to local`.
 4. Decide priority among remaining phases (recommend: Phase B reusable victims first since 0 new crafts needed; then Phase C; then Phase D coding).
 5. Submit chosen phase's SLURM array.

@@ -19,8 +19,9 @@ venv/
 Thumbs.db
 
 # Papers (large PDFs — not redistributable)
+papers/
 *.pdf
-!report/CHECKPOINT_2.pdf
+!checkpoints/CHECKPOINT_2.pdf
 
 # CIFAR-10 (downloadable from torchvision / official source)
 data/cifar-10-batches-py/
