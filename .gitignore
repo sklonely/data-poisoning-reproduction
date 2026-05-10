@@ -21,7 +21,12 @@ Thumbs.db
 # Papers (large PDFs — not redistributable)
 papers/
 *.pdf
-!checkpoints/CHECKPOINT_2.pdf
+!slides/CHECKPOINT_2.pdf
+
+# Model checkpoints / poisoned datasets — too big for plain git
+# (track the dropzone with a README, but ignore the actual artefact files)
+checkpoints/*
+!checkpoints/README.md
 
 # CIFAR-10 (downloadable from torchvision / official source)
 data/cifar-10-batches-py/

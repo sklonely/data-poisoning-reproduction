@@ -20,7 +20,7 @@ This document is the single source of truth for picking the project back up afte
 | Phase B (Fig 5 transfer) | ⏸ 0% — depends on Phase A ResNet/VGG13/ConvNetBN at 1% budget (have crafts; need victim runs) |
 | Phase C (Fig 7 alt schemes) | ⏸ 0% — code already exists in repo (`-objective xentC` and `-multiclasspoison` flags) |
 | Phase D (Fig 3 fine-tuning) | 🟡 **Code skeleton complete** (FC craft + fine-tune victim + pretrain script + manifests + sbatches all written and unit-tested); pretrain job 20299700 RUNNING |
-| Final report | ✅ Checkpoint Presentation 2 draft (`checkpoints/CHECKPOINT_2_zh.md` aligned to new narrative arc 2026-05-05) |
+| Final report | ✅ Checkpoint Presentation 2 draft (`slides/CHECKPOINT_2_zh.md` aligned to new narrative arc 2026-05-05) |
 | Augmentation ablation (Fig 5 §3.3 axis) | ✅ job 20290350 done (3 conditions, A=0/3 ASR aug-on, B/C=3/3 aug-off) |
 | HPC active queue | 🟢 **2 jobs running**: 20299699 (Phase A victim t0 A05-A30, 156 tasks) + 20299700 (Phase D pretrain) |
 
@@ -68,7 +68,7 @@ This document is the single source of truth for picking the project back up afte
 | `hpc_array_phase_d_fc_victim.sbatch` | (NEW 2026-05-05) 360-task SLURM array for FC fine-tune victims |
 | `hpc_ablation_torch.sbatch` | augmentation ablation (job 20290350, 2026-05-04) |
 | `report/build_figures.py` | Result aggregator → produces Fig 1/2/3 |
-| `checkpoints/CHECKPOINT_2_zh.md` | Slide-deck draft (aligned to new narrative arc 2026-05-05) |
+| `slides/CHECKPOINT_2_zh.md` | Slide-deck draft (aligned to new narrative arc 2026-05-05) |
 | `report/figures/fig1..3.png` | Built figures |
 
 ### 2.2 Experimental runs completed
@@ -195,7 +195,8 @@ Local:
     slurm/                    # hpc_*.sbatch + run_metapoison.sh
     hpc-results/              # pulled artifacts (~3 GB, gitignored heavy parts)
     report/                   # figures + build scripts
-    checkpoints/              # CHECKPOINT_2.md / _zh.md / .pdf (slide-deck snapshots)
+    slides/                   # CHECKPOINT_2.md / _zh.md / .pdf (slide-deck snapshots)
+    checkpoints/              # model-checkpoint dropzone (gitignored heavy artefacts)
     docs/                     # RESUME.md (this), osu-hpc.md, README_HPC.md
     papers/                   # reference PDFs (gitignored)
 

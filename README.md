@@ -37,7 +37,8 @@ src/metapoison_hpc/    Our PyTorch victim + Phase-D feature-collision baseline
 experiments/           CSV manifests + generators for SLURM array sweeps
 slurm/                 SLURM array templates + run_metapoison.sh
 report/                Figure builders + figures/ + paper-image extractors
-checkpoints/           Slide-deck snapshots (CHECKPOINT_2 markdown + PDF, EN + 中文)
+slides/                Slide-deck snapshots (CHECKPOINT_2 markdown + PDF, EN + 中文)
+checkpoints/           Model-checkpoint dropzone (poisoned-dataset .pkl, victim weights)
 hpc-results/           Aggregated metrics (heavy artifacts are gitignored)
 docs/                  RESUME.md (project state), osu-hpc.md, legacy HPC notes
 papers/                Reference PDFs (gitignored — not redistributable)
@@ -80,7 +81,7 @@ and `.venv-torch`. See [docs/osu-hpc.md](docs/osu-hpc.md) for the partition/QOS 
 
 The PyTorch victim was a **deliberate consistency check**, not a port-then-deploy.
 The augmentation ablation (job 20290350) showed that the TF↔PyTorch ASR gap collapses
-once augmentation is held constant; see [checkpoints/CHECKPOINT_2_zh.md](checkpoints/CHECKPOINT_2_zh.md) for the narrative.
+once augmentation is held constant; see [slides/CHECKPOINT_2_zh.md](slides/CHECKPOINT_2_zh.md) for the narrative.
 
 ---
 
