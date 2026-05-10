@@ -1,0 +1,100 @@
+{
+  "assets": [],
+  "duration_ms": 869,
+  "end_time_ms": 1778102802404,
+  "key": "65c0e817debc49179def5e655aba232b",
+  "name": "6fded-65c0e",
+  "others": {
+    "command": "python victim.py A19 -artifactroot /nfs/hpc/share/chanc7/metapoison/outputs-phase-a -workspace local -craftproj craft-A19 -Xvictimproj victim-A19-export -gpu 0 -craftsteps 60 -savepoisondataset -poisondatasetfile /nfs/hpc/share/chanc7/metapoison/exports/A19-poisondataset",
+    "crafturl": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-a/local/craft-A19/6fdedb719ffa479a966a8875afb70ab0"
+  },
+  "params": {
+    "Xaugment": false,
+    "Xbatchsize": false,
+    "Xlrnrate": false,
+    "Xnet": null,
+    "Xnpoison": null,
+    "Xschedule": false,
+    "Xtag": null,
+    "Xvictimproj": "victim-A19-export",
+    "Xweightdecay": false,
+    "artifactroot": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-a",
+    "augment": false,
+    "batchsize": 125,
+    "bit64": false,
+    "craftkey": "6fdedb719ffa479a966a8875afb70ab0",
+    "craftproj": "craft-A19",
+    "craftrate": 200,
+    "craftstep": 60,
+    "craftsteps": [
+      60
+    ],
+    "crdropperiod": 20,
+    "epochmass": false,
+    "eps": 8,
+    "epscolor": [
+      0.04,
+      0.04,
+      0.04
+    ],
+    "gpu": [
+      0
+    ],
+    "gridshape": [
+      10,
+      10,
+      10
+    ],
+    "justtrain": 0,
+    "logfeat": false,
+    "logperiod": 10,
+    "lrnrate": 0.1,
+    "multiclasspoison": false,
+    "nadapt": 2,
+    "nbatch": 400,
+    "ncraftstep": 61,
+    "net": "VGG13BN",
+    "npoison": 2500,
+    "nreplay": 6,
+    "ntarget": 1,
+    "ntrial": 1,
+    "nvalidpoints": 5,
+    "nvictimepoch": 200,
+    "objective": "cwT",
+    "optimizer": "sgd",
+    "poisonclass": 6,
+    "poisondatasetfile": "/nfs/hpc/share/chanc7/metapoison/exports/A19-poisondataset",
+    "pretrain": "",
+    "restartperiod": 9999,
+    "savepoisondataset": true,
+    "saveweights": false,
+    "schedule": [
+      100,
+      150,
+      200
+    ],
+    "skipvictim": true,
+    "smoothcoef": 1.0,
+    "stagger": 1,
+    "tag": "",
+    "targetclass": 0,
+    "targetids": [
+      0
+    ],
+    "trajectory": "clean",
+    "trial": 0,
+    "uid": "A19",
+    "victimproj": "victim-A19-export",
+    "warmupperiod": 5,
+    "watermark": false,
+    "weightdecay": false,
+    "weightset": "",
+    "weightsettrain": false,
+    "workspace": "local",
+    "ytargetadv": 6
+  },
+  "project_name": "victim-A19-export",
+  "start_time_ms": 1778102801535,
+  "tags": [],
+  "workspace": "local"
+}

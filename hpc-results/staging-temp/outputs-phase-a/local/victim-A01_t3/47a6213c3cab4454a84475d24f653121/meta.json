@@ -1,0 +1,100 @@
+{
+  "assets": [],
+  "duration_ms": 526611,
+  "end_time_ms": 1778130002293,
+  "key": "47a6213c3cab4454a84475d24f653121",
+  "name": "71883-47a62",
+  "others": {
+    "command": "python victim.py A01_t3 -artifactroot /nfs/hpc/share/chanc7/metapoison/outputs-phase-a -workspace local -craftproj craft-A01_t3 -Xvictimproj victim-A01_t3 -gpu 0 -craftsteps 60 -ntrial 1 -nvictimepoch 200 -tag A01_t3_s0_seed0",
+    "crafturl": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-a/local/craft-A01_t3/718832de29f944378d603032035c3d76"
+  },
+  "params": {
+    "Xaugment": false,
+    "Xbatchsize": false,
+    "Xlrnrate": false,
+    "Xnet": null,
+    "Xnpoison": null,
+    "Xschedule": false,
+    "Xtag": null,
+    "Xvictimproj": "victim-A01_t3",
+    "Xweightdecay": false,
+    "artifactroot": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-a",
+    "augment": false,
+    "batchsize": 125,
+    "bit64": false,
+    "craftkey": "718832de29f944378d603032035c3d76",
+    "craftproj": "craft-A01_t3",
+    "craftrate": 200,
+    "craftstep": 60,
+    "craftsteps": [
+      60
+    ],
+    "crdropperiod": 20,
+    "epochmass": false,
+    "eps": 8,
+    "epscolor": [
+      0.04,
+      0.04,
+      0.04
+    ],
+    "gpu": [
+      0
+    ],
+    "gridshape": [
+      10,
+      10,
+      10
+    ],
+    "justtrain": 0,
+    "logfeat": false,
+    "logperiod": 10,
+    "lrnrate": 0.1,
+    "multiclasspoison": false,
+    "nadapt": 2,
+    "nbatch": 400,
+    "ncraftstep": 61,
+    "net": "ConvNetBN",
+    "npoison": 5,
+    "nreplay": 6,
+    "ntarget": 1,
+    "ntrial": 1,
+    "nvalidpoints": 5,
+    "nvictimepoch": 200,
+    "objective": "cwT",
+    "optimizer": "sgd",
+    "poisonclass": 5,
+    "poisondatasetfile": "poisondataset",
+    "pretrain": "",
+    "restartperiod": 9999,
+    "savepoisondataset": false,
+    "saveweights": false,
+    "schedule": [
+      100,
+      150,
+      200
+    ],
+    "skipvictim": true,
+    "smoothcoef": 1.0,
+    "stagger": 1,
+    "tag": "",
+    "targetclass": 2,
+    "targetids": [
+      3
+    ],
+    "trajectory": "clean",
+    "trial": 0,
+    "uid": "A01_t3",
+    "victimproj": "victim-A01_t3",
+    "warmupperiod": 5,
+    "watermark": false,
+    "weightdecay": false,
+    "weightset": "",
+    "weightsettrain": false,
+    "workspace": "local",
+    "ytargetadv": 5
+  },
+  "project_name": "victim-A01_t3",
+  "start_time_ms": 1778129475682,
+  "tags": [],
+  "workspace": "local"
+}

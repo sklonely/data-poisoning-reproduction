@@ -1,0 +1,6675 @@
+{
+  "dataset": "/nfs/hpc/share/chanc7/metapoison/outputs-v2/poisondataset-60.pkl",
+  "summary": {
+    "n_trials": 3,
+    "valid_acc_mean": 0.8430666666666667,
+    "valid_acc_std": 0.00040276819911982676,
+    "attack_success_rate_mean": 0.0,
+    "attack_success_rate_std": 0.0
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "seed": 1337,
+      "history": [
+        {
+          "epoch": 0,
+          "train_loss": 1.581487891921997,
+          "train_acc": 0.4116,
+          "valid_loss": 2.2046325107574463,
+          "valid_acc": 0.36,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 1,
+          "train_loss": 1.0107463381767272,
+          "train_acc": 0.6388,
+          "valid_loss": 1.6504519882202149,
+          "valid_acc": 0.5275,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.7983332112503052,
+          "train_acc": 0.71786,
+          "valid_loss": 1.6860420358657837,
+          "valid_acc": 0.6022,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.6701578733253479,
+          "train_acc": 0.76724,
+          "valid_loss": 1.5230156323432922,
+          "valid_acc": 0.666,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.5941506002616882,
+          "train_acc": 0.79408,
+          "valid_loss": 1.4858259138584138,
+          "valid_acc": 0.6909,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.533507459487915,
+          "train_acc": 0.81634,
+          "valid_loss": 1.5666587734222412,
+          "valid_acc": 0.7017,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.49569832511901857,
+          "train_acc": 0.82894,
+          "valid_loss": 1.449516317462921,
+          "valid_acc": 0.6796,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.46465958919525147,
+          "train_acc": 0.84102,
+          "valid_loss": 1.4739746356964112,
+          "valid_acc": 0.7283,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.43910586274147034,
+          "train_acc": 0.8495,
+          "valid_loss": 1.392234952354431,
+          "valid_acc": 0.7223,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.4221480021095276,
+          "train_acc": 0.85552,
+          "valid_loss": 1.5570826647758484,
+          "valid_acc": 0.734,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.40857981727600096,
+          "train_acc": 0.86122,
+          "valid_loss": 1.5285767566680908,
+          "valid_acc": 0.7308,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.39049803384780885,
+          "train_acc": 0.86506,
+          "valid_loss": 1.458778386080265,
+          "valid_acc": 0.7328,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.3835231782627106,
+          "train_acc": 0.86812,
+          "valid_loss": 1.1925875395298005,
+          "valid_acc": 0.713,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 13,
+          "train_loss": 0.36737677066802976,
+          "train_acc": 0.87424,
+          "valid_loss": 1.5785812561035155,
+          "valid_acc": 0.7456,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 14,
+          "train_loss": 0.3635697290611267,
+          "train_acc": 0.87486,
+          "valid_loss": 1.6463701711177825,
+          "valid_acc": 0.7188,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 15,
+          "train_loss": 0.35515560821533204,
+          "train_acc": 0.87696,
+          "valid_loss": 1.2642423398256302,
+          "valid_acc": 0.7711,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.3444646732330322,
+          "train_acc": 0.88248,
+          "valid_loss": 1.579361253786087,
+          "valid_acc": 0.7313,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 17,
+          "train_loss": 0.33663579915046693,
+          "train_acc": 0.88458,
+          "valid_loss": 1.397600943416357,
+          "valid_acc": 0.7245,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 18,
+          "train_loss": 0.331440562582016,
+          "train_acc": 0.8871,
+          "valid_loss": 1.5918626086369156,
+          "valid_acc": 0.7222,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 19,
+          "train_loss": 0.3274267941951752,
+          "train_acc": 0.88792,
+          "valid_loss": 1.3377380204588174,
+          "valid_acc": 0.7411,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 20,
+          "train_loss": 0.32008719252586365,
+          "train_acc": 0.88948,
+          "valid_loss": 1.5782354179382325,
+          "valid_acc": 0.7532,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 21,
+          "train_loss": 0.31363911160469055,
+          "train_acc": 0.89242,
+          "valid_loss": 1.3196722212791443,
+          "valid_acc": 0.7654,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 22,
+          "train_loss": 0.30943126373291013,
+          "train_acc": 0.8931,
+          "valid_loss": 1.3470785425782204,
+          "valid_acc": 0.7567,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 23,
+          "train_loss": 0.305284519367218,
+          "train_acc": 0.8935,
+          "valid_loss": 1.2131368952453137,
+          "valid_acc": 0.7644,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 24,
+          "train_loss": 0.3052151170730591,
+          "train_acc": 0.89504,
+          "valid_loss": 1.5791069823741912,
+          "valid_acc": 0.7594,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 25,
+          "train_loss": 0.29944694019317625,
+          "train_acc": 0.89832,
+          "valid_loss": 1.4244841581061483,
+          "valid_acc": 0.7576,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 26,
+          "train_loss": 0.30026472400665283,
+          "train_acc": 0.89624,
+          "valid_loss": 1.1470385146021842,
+          "valid_acc": 0.7528,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 27,
+          "train_loss": 0.29106842678070066,
+          "train_acc": 0.90044,
+          "valid_loss": 1.594599918651581,
+          "valid_acc": 0.7489,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 28,
+          "train_loss": 0.2870415085697174,
+          "train_acc": 0.90062,
+          "valid_loss": 1.255136660695076,
+          "valid_acc": 0.7443,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 29,
+          "train_loss": 0.2852178291130066,
+          "train_acc": 0.903,
+          "valid_loss": 1.3204745777130127,
+          "valid_acc": 0.7632,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 30,
+          "train_loss": 0.28355181237220767,
+          "train_acc": 0.90182,
+          "valid_loss": 1.4603038984298706,
+          "valid_acc": 0.763,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 31,
+          "train_loss": 0.27725391786575315,
+          "train_acc": 0.9048,
+          "valid_loss": 1.4981648317337035,
+          "valid_acc": 0.7549,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 32,
+          "train_loss": 0.281266117143631,
+          "train_acc": 0.90416,
+          "valid_loss": 1.7118977506160735,
+          "valid_acc": 0.6892,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 33,
+          "train_loss": 0.2785734710788727,
+          "train_acc": 0.90318,
+          "valid_loss": 1.6663601519584657,
+          "valid_acc": 0.7635,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 34,
+          "train_loss": 0.27098164784431455,
+          "train_acc": 0.9074,
+          "valid_loss": 1.5641301216125487,
+          "valid_acc": 0.7682,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 35,
+          "train_loss": 0.2725268000411987,
+          "train_acc": 0.90648,
+          "valid_loss": 1.380669648504257,
+          "valid_acc": 0.744,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 36,
+          "train_loss": 0.26581293001174927,
+          "train_acc": 0.90796,
+          "valid_loss": 1.297691449189186,
+          "valid_acc": 0.7785,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 37,
+          "train_loss": 0.26823028555870054,
+          "train_acc": 0.90734,
+          "valid_loss": 1.4103623468399047,
+          "valid_acc": 0.7919,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 38,
+          "train_loss": 0.26303691643714905,
+          "train_acc": 0.91028,
+          "valid_loss": 1.4888363104581832,
+          "valid_acc": 0.7674,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 39,
+          "train_loss": 0.2630780201721191,
+          "train_acc": 0.90894,
+          "valid_loss": 1.2600916593790055,
+          "valid_acc": 0.7621,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 40,
+          "train_loss": 0.2654617926502228,
+          "train_acc": 0.90878,
+          "valid_loss": 1.2767321709156036,
+          "valid_acc": 0.7746,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 41,
+          "train_loss": 0.25731013058662416,
+          "train_acc": 0.91166,
+          "valid_loss": 1.3327770843029023,
+          "valid_acc": 0.7652,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 42,
+          "train_loss": 0.25977833840847014,
+          "train_acc": 0.91108,
+          "valid_loss": 1.5178511237621308,
+          "valid_acc": 0.7609,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 43,
+          "train_loss": 0.2558472488164902,
+          "train_acc": 0.9118,
+          "valid_loss": 1.727724812912941,
+          "valid_acc": 0.7523,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 44,
+          "train_loss": 0.2568207206726074,
+          "train_acc": 0.91212,
+          "valid_loss": 1.5862504693984985,
+          "valid_acc": 0.7524,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 45,
+          "train_loss": 0.2542117671251297,
+          "train_acc": 0.91238,
+          "valid_loss": 1.4149531639575958,
+          "valid_acc": 0.7746,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 46,
+          "train_loss": 0.25216120966911315,
+          "train_acc": 0.9136,
+          "valid_loss": 1.2696616846859454,
+          "valid_acc": 0.7763,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 47,
+          "train_loss": 0.2546850241470337,
+          "train_acc": 0.912,
+          "valid_loss": 1.479083945417404,
+          "valid_acc": 0.7634,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 48,
+          "train_loss": 0.25077654955863954,
+          "train_acc": 0.91588,
+          "valid_loss": 1.28433789665699,
+          "valid_acc": 0.7841,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 49,
+          "train_loss": 0.2525115212345123,
+          "train_acc": 0.91316,
+          "valid_loss": 1.382700095295906,
+          "valid_acc": 0.7524,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 50,
+          "train_loss": 0.24512354487419127,
+          "train_acc": 0.91568,
+          "valid_loss": 1.297788019556552,
+          "valid_acc": 0.7824,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 51,
+          "train_loss": 0.24895498394966126,
+          "train_acc": 0.91532,
+          "valid_loss": 1.2315142752155661,
+          "valid_acc": 0.7872,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 52,
+          "train_loss": 0.2433282255935669,
+          "train_acc": 0.91592,
+          "valid_loss": 1.5736695783138275,
+          "valid_acc": 0.7524,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 53,
+          "train_loss": 0.2446119141292572,
+          "train_acc": 0.91618,
+          "valid_loss": 1.5242311307668686,
+          "valid_acc": 0.7501,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 54,
+          "train_loss": 0.24451624717712403,
+          "train_acc": 0.9158,
+          "valid_loss": 1.2979815004587174,
+          "valid_acc": 0.7685,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 55,
+          "train_loss": 0.2422560057735443,
+          "train_acc": 0.91546,
+          "valid_loss": 1.3881215079307556,
+          "valid_acc": 0.756,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 56,
+          "train_loss": 0.2436347535133362,
+          "train_acc": 0.91588,
+          "valid_loss": 1.5634812007904053,
+          "valid_acc": 0.7633,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 57,
+          "train_loss": 0.24756266806602478,
+          "train_acc": 0.91522,
+          "valid_loss": 1.5603311545610428,
+          "valid_acc": 0.7815,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 58,
+          "train_loss": 0.2393500769329071,
+          "train_acc": 0.9187,
+          "valid_loss": 1.3065872239604592,
+          "valid_acc": 0.7721,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 59,
+          "train_loss": 0.23990544793128968,
+          "train_acc": 0.91708,
+          "valid_loss": 1.3830267171740531,
+          "valid_acc": 0.7784,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 60,
+          "train_loss": 0.24230253029823304,
+          "train_acc": 0.9168,
+          "valid_loss": 1.3889973690509796,
+          "valid_acc": 0.7823,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 61,
+          "train_loss": 0.2378637571144104,
+          "train_acc": 0.91766,
+          "valid_loss": 1.2175838330835105,
+          "valid_acc": 0.7925,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 62,
+          "train_loss": 0.24287204496383666,
+          "train_acc": 0.91742,
+          "valid_loss": 1.2699287070035934,
+          "valid_acc": 0.7742,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 63,
+          "train_loss": 0.23760932932853698,
+          "train_acc": 0.91834,
+          "valid_loss": 1.464077285774052,
+          "valid_acc": 0.7765,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 64,
+          "train_loss": 0.23674593749046324,
+          "train_acc": 0.91892,
+          "valid_loss": 1.5173257604539394,
+          "valid_acc": 0.7785,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 65,
+          "train_loss": 0.23743403324604034,
+          "train_acc": 0.91844,
+          "valid_loss": 1.3779983903169633,
+          "valid_acc": 0.7786,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            4
+          ]
+        },
+        {
+          "epoch": 66,
+          "train_loss": 0.23427591742515563,
+          "train_acc": 0.91942,
+          "valid_loss": 1.3053001845359802,
+          "valid_acc": 0.7881,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 67,
+          "train_loss": 0.23272891322135925,
+          "train_acc": 0.92026,
+          "valid_loss": 1.3085956285834313,
+          "valid_acc": 0.7573,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 68,
+          "train_loss": 0.2332480890274048,
+          "train_acc": 0.92112,
+          "valid_loss": 1.5068700243473052,
+          "valid_acc": 0.7775,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 69,
+          "train_loss": 0.23164270833969117,
+          "train_acc": 0.92004,
+          "valid_loss": 1.3358391539096832,
+          "valid_acc": 0.794,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 70,
+          "train_loss": 0.2352577499485016,
+          "train_acc": 0.9185,
+          "valid_loss": 1.3166763903662562,
+          "valid_acc": 0.7864,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 71,
+          "train_loss": 0.23254740690231324,
+          "train_acc": 0.91948,
+          "valid_loss": 1.4007219215631486,
+          "valid_acc": 0.7881,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 72,
+          "train_loss": 0.23262054478168487,
+          "train_acc": 0.92,
+          "valid_loss": 1.415718219858408,
+          "valid_acc": 0.778,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 73,
+          "train_loss": 0.23319983080387116,
+          "train_acc": 0.91858,
+          "valid_loss": 1.6925044979095458,
+          "valid_acc": 0.7445,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 74,
+          "train_loss": 0.22910843231201172,
+          "train_acc": 0.9206,
+          "valid_loss": 1.5381944532632827,
+          "valid_acc": 0.7753,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 75,
+          "train_loss": 0.22727804246902467,
+          "train_acc": 0.92258,
+          "valid_loss": 1.3847538208544254,
+          "valid_acc": 0.7824,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 76,
+          "train_loss": 0.2260758034992218,
+          "train_acc": 0.92346,
+          "valid_loss": 1.4535126194000245,
+          "valid_acc": 0.7799,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 77,
+          "train_loss": 0.23112801591396331,
+          "train_acc": 0.91958,
+          "valid_loss": 1.6417172733828425,
+          "valid_acc": 0.762,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 78,
+          "train_loss": 0.2290413254737854,
+          "train_acc": 0.92064,
+          "valid_loss": 1.528805599117279,
+          "valid_acc": 0.7585,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 79,
+          "train_loss": 0.22668312819957734,
+          "train_acc": 0.92204,
+          "valid_loss": 1.382026501083374,
+          "valid_acc": 0.7823,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 80,
+          "train_loss": 0.2315397929096222,
+          "train_acc": 0.92022,
+          "valid_loss": 1.4910633073985577,
+          "valid_acc": 0.768,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 81,
+          "train_loss": 0.2254742945098877,
+          "train_acc": 0.92218,
+          "valid_loss": 1.369910539150238,
+          "valid_acc": 0.7603,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 82,
+          "train_loss": 0.2260152449798584,
+          "train_acc": 0.92164,
+          "valid_loss": 1.6537580758333206,
+          "valid_acc": 0.7639,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 83,
+          "train_loss": 0.22789277218818665,
+          "train_acc": 0.92204,
+          "valid_loss": 1.4854454334020615,
+          "valid_acc": 0.7622,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 84,
+          "train_loss": 0.22600094361305237,
+          "train_acc": 0.92146,
+          "valid_loss": 1.2903881257772445,
+          "valid_acc": 0.782,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 85,
+          "train_loss": 0.22288439149856568,
+          "train_acc": 0.92254,
+          "valid_loss": 1.1712276438236238,
+          "valid_acc": 0.7824,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 86,
+          "train_loss": 0.22452443564891816,
+          "train_acc": 0.92248,
+          "valid_loss": 1.2417065759301185,
+          "valid_acc": 0.7804,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 87,
+          "train_loss": 0.2242348541688919,
+          "train_acc": 0.9236,
+          "valid_loss": 1.4039830555796624,
+          "valid_acc": 0.7624,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 88,
+          "train_loss": 0.22293038376808166,
+          "train_acc": 0.9229,
+          "valid_loss": 1.3499669045343996,
+          "valid_acc": 0.7666,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            4
+          ]
+        },
+        {
+          "epoch": 89,
+          "train_loss": 0.22205881046295167,
+          "train_acc": 0.92474,
+          "valid_loss": 1.5437321029961109,
+          "valid_acc": 0.7436,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 90,
+          "train_loss": 0.22331587443351747,
+          "train_acc": 0.92204,
+          "valid_loss": 1.6313893722355366,
+          "valid_acc": 0.7659,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            7
+          ]
+        },
+        {
+          "epoch": 91,
+          "train_loss": 0.22591674478530885,
+          "train_acc": 0.92116,
+          "valid_loss": 1.4470384264796972,
+          "valid_acc": 0.7452,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 92,
+          "train_loss": 0.21838311768531798,
+          "train_acc": 0.92562,
+          "valid_loss": 1.325709330892563,
+          "valid_acc": 0.7769,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 93,
+          "train_loss": 0.22086030685424804,
+          "train_acc": 0.92516,
+          "valid_loss": 1.3665952989459038,
+          "valid_acc": 0.7841,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 94,
+          "train_loss": 0.22296741209983825,
+          "train_acc": 0.9232,
+          "valid_loss": 1.2771879968762399,
+          "valid_acc": 0.8005,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 95,
+          "train_loss": 0.22061529496192933,
+          "train_acc": 0.92398,
+          "valid_loss": 1.4282072313666343,
+          "valid_acc": 0.7707,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 96,
+          "train_loss": 0.2267466696357727,
+          "train_acc": 0.9226,
+          "valid_loss": 1.3898805635929108,
+          "valid_acc": 0.7715,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 97,
+          "train_loss": 0.21719996118545531,
+          "train_acc": 0.92596,
+          "valid_loss": 1.321276268839836,
+          "valid_acc": 0.756,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 98,
+          "train_loss": 0.2171928751564026,
+          "train_acc": 0.92516,
+          "valid_loss": 1.4928760939955712,
+          "valid_acc": 0.7705,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 99,
+          "train_loss": 0.22021346336841582,
+          "train_acc": 0.9235,
+          "valid_loss": 1.3604986818611622,
+          "valid_acc": 0.7804,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 100,
+          "train_loss": 0.13032376360416412,
+          "train_acc": 0.95678,
+          "valid_loss": 1.2567701317846776,
+          "valid_acc": 0.8357,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 101,
+          "train_loss": 0.09994432257652283,
+          "train_acc": 0.96758,
+          "valid_loss": 1.319249016302824,
+          "valid_acc": 0.8343,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 102,
+          "train_loss": 0.09157620731353759,
+          "train_acc": 0.9696,
+          "valid_loss": 1.3695138337895274,
+          "valid_acc": 0.8366,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 103,
+          "train_loss": 0.08463249315738677,
+          "train_acc": 0.97246,
+          "valid_loss": 1.3891276308059692,
+          "valid_acc": 0.8385,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 104,
+          "train_loss": 0.07876412134885788,
+          "train_acc": 0.9742,
+          "valid_loss": 1.4717700831070542,
+          "valid_acc": 0.8382,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 105,
+          "train_loss": 0.07396564400196075,
+          "train_acc": 0.97492,
+          "valid_loss": 1.4258663160592318,
+          "valid_acc": 0.8388,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 106,
+          "train_loss": 0.06701304444551467,
+          "train_acc": 0.97828,
+          "valid_loss": 1.4146404496997596,
+          "valid_acc": 0.84,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 107,
+          "train_loss": 0.06494517904281616,
+          "train_acc": 0.97896,
+          "valid_loss": 1.476043240699172,
+          "valid_acc": 0.8381,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 108,
+          "train_loss": 0.06418827785730362,
+          "train_acc": 0.97868,
+          "valid_loss": 1.4612503288388252,
+          "valid_acc": 0.8405,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 109,
+          "train_loss": 0.0610732371711731,
+          "train_acc": 0.97982,
+          "valid_loss": 1.4371100212454795,
+          "valid_acc": 0.8412,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 110,
+          "train_loss": 0.05880340801477432,
+          "train_acc": 0.9803,
+          "valid_loss": 1.5023546223923563,
+          "valid_acc": 0.8411,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 111,
+          "train_loss": 0.053549922292232516,
+          "train_acc": 0.98304,
+          "valid_loss": 1.4813793647393585,
+          "valid_acc": 0.8401,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 112,
+          "train_loss": 0.05348742336034775,
+          "train_acc": 0.98284,
+          "valid_loss": 1.5257753235798328,
+          "valid_acc": 0.8401,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 113,
+          "train_loss": 0.05074520928561688,
+          "train_acc": 0.98366,
+          "valid_loss": 1.458331418299675,
+          "valid_acc": 0.8386,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 114,
+          "train_loss": 0.05093244241476059,
+          "train_acc": 0.98364,
+          "valid_loss": 1.4533373267114162,
+          "valid_acc": 0.8402,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 115,
+          "train_loss": 0.04665862864613533,
+          "train_acc": 0.98494,
+          "valid_loss": 1.5382633760750293,
+          "valid_acc": 0.8421,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 116,
+          "train_loss": 0.046498906883001324,
+          "train_acc": 0.98484,
+          "valid_loss": 1.497572830145061,
+          "valid_acc": 0.8414,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 117,
+          "train_loss": 0.044563514862060546,
+          "train_acc": 0.98528,
+          "valid_loss": 1.4657913533091544,
+          "valid_acc": 0.841,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 118,
+          "train_loss": 0.04352661830067635,
+          "train_acc": 0.98608,
+          "valid_loss": 1.550224371995032,
+          "valid_acc": 0.8414,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 119,
+          "train_loss": 0.04116898784279823,
+          "train_acc": 0.98678,
+          "valid_loss": 1.510274821653962,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 120,
+          "train_loss": 0.04112678596258163,
+          "train_acc": 0.98646,
+          "valid_loss": 1.5939251660332083,
+          "valid_acc": 0.8434,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 121,
+          "train_loss": 0.041595447810292244,
+          "train_acc": 0.98662,
+          "valid_loss": 1.4987533117055893,
+          "valid_acc": 0.8382,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 122,
+          "train_loss": 0.03933980106472969,
+          "train_acc": 0.98748,
+          "valid_loss": 1.5740522574722766,
+          "valid_acc": 0.8409,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 123,
+          "train_loss": 0.03896605064541101,
+          "train_acc": 0.98728,
+          "valid_loss": 1.5413611557438969,
+          "valid_acc": 0.8396,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 124,
+          "train_loss": 0.03967603973388672,
+          "train_acc": 0.98694,
+          "valid_loss": 1.5493900510892271,
+          "valid_acc": 0.8392,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 125,
+          "train_loss": 0.036833761606812475,
+          "train_acc": 0.9879,
+          "valid_loss": 1.5700885522529482,
+          "valid_acc": 0.8388,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 126,
+          "train_loss": 0.0368696215569973,
+          "train_acc": 0.9881,
+          "valid_loss": 1.427474317163229,
+          "valid_acc": 0.8414,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 127,
+          "train_loss": 0.03581937232494354,
+          "train_acc": 0.98866,
+          "valid_loss": 1.5903760819226502,
+          "valid_acc": 0.8419,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 128,
+          "train_loss": 0.03564494939208031,
+          "train_acc": 0.98904,
+          "valid_loss": 1.5463204717218877,
+          "valid_acc": 0.8374,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 129,
+          "train_loss": 0.03368841713786125,
+          "train_acc": 0.9887,
+          "valid_loss": 1.5753826434444635,
+          "valid_acc": 0.8384,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 130,
+          "train_loss": 0.03359413298249245,
+          "train_acc": 0.98942,
+          "valid_loss": 1.6039997601151466,
+          "valid_acc": 0.8391,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 131,
+          "train_loss": 0.03452642971813679,
+          "train_acc": 0.98908,
+          "valid_loss": 1.5551816059231758,
+          "valid_acc": 0.8385,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 132,
+          "train_loss": 0.033686476781368255,
+          "train_acc": 0.98872,
+          "valid_loss": 1.5701289339300244,
+          "valid_acc": 0.8402,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 133,
+          "train_loss": 0.03259807989239693,
+          "train_acc": 0.98988,
+          "valid_loss": 1.4587688579797744,
+          "valid_acc": 0.8378,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 134,
+          "train_loss": 0.03325675006687641,
+          "train_acc": 0.98914,
+          "valid_loss": 1.5532602366745472,
+          "valid_acc": 0.8414,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 135,
+          "train_loss": 0.029372660796642303,
+          "train_acc": 0.99066,
+          "valid_loss": 1.528086827659607,
+          "valid_acc": 0.8404,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 136,
+          "train_loss": 0.030570765656232835,
+          "train_acc": 0.99,
+          "valid_loss": 1.5942988873958588,
+          "valid_acc": 0.8405,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 137,
+          "train_loss": 0.032024132404327395,
+          "train_acc": 0.99002,
+          "valid_loss": 1.4633565499782561,
+          "valid_acc": 0.8381,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 138,
+          "train_loss": 0.030960559817254544,
+          "train_acc": 0.99014,
+          "valid_loss": 1.4479505354523659,
+          "valid_acc": 0.8371,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 139,
+          "train_loss": 0.032728721643686294,
+          "train_acc": 0.98976,
+          "valid_loss": 1.535894996944815,
+          "valid_acc": 0.8369,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 140,
+          "train_loss": 0.03004670926332474,
+          "train_acc": 0.99052,
+          "valid_loss": 1.5133469731986522,
+          "valid_acc": 0.8403,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 141,
+          "train_loss": 0.030119274523854257,
+          "train_acc": 0.99038,
+          "valid_loss": 1.5652279371380806,
+          "valid_acc": 0.8392,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 142,
+          "train_loss": 0.02808904741704464,
+          "train_acc": 0.9913,
+          "valid_loss": 1.5113734972834587,
+          "valid_acc": 0.84,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 143,
+          "train_loss": 0.032648543115854266,
+          "train_acc": 0.98978,
+          "valid_loss": 1.5063522483468055,
+          "valid_acc": 0.8386,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 144,
+          "train_loss": 0.030374081342220305,
+          "train_acc": 0.99038,
+          "valid_loss": 1.532572165030241,
+          "valid_acc": 0.8366,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 145,
+          "train_loss": 0.030506773495674135,
+          "train_acc": 0.99004,
+          "valid_loss": 1.513187053823471,
+          "valid_acc": 0.84,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 146,
+          "train_loss": 0.029643086909651756,
+          "train_acc": 0.99052,
+          "valid_loss": 1.3867558789283037,
+          "valid_acc": 0.8393,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 147,
+          "train_loss": 0.02992578716635704,
+          "train_acc": 0.99058,
+          "valid_loss": 1.5484120808124542,
+          "valid_acc": 0.839,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 148,
+          "train_loss": 0.031609699294567105,
+          "train_acc": 0.98988,
+          "valid_loss": 1.4446931075930596,
+          "valid_acc": 0.8367,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 149,
+          "train_loss": 0.029978152455091476,
+          "train_acc": 0.9902,
+          "valid_loss": 1.4560372915327549,
+          "valid_acc": 0.8394,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 150,
+          "train_loss": 0.022774557206630706,
+          "train_acc": 0.99304,
+          "valid_loss": 1.4968901752114296,
+          "valid_acc": 0.8439,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 151,
+          "train_loss": 0.017616196613311767,
+          "train_acc": 0.99558,
+          "valid_loss": 1.4720728029310703,
+          "valid_acc": 0.8439,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 152,
+          "train_loss": 0.017639477376937867,
+          "train_acc": 0.9955,
+          "valid_loss": 1.4737120406150819,
+          "valid_acc": 0.8437,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 153,
+          "train_loss": 0.01669350252389908,
+          "train_acc": 0.99542,
+          "valid_loss": 1.4975627779245377,
+          "valid_acc": 0.8429,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 154,
+          "train_loss": 0.01624996477767825,
+          "train_acc": 0.99596,
+          "valid_loss": 1.533184512579441,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 155,
+          "train_loss": 0.01534371297299862,
+          "train_acc": 0.9961,
+          "valid_loss": 1.5042904560804367,
+          "valid_acc": 0.8423,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 156,
+          "train_loss": 0.014290907126963138,
+          "train_acc": 0.99686,
+          "valid_loss": 1.533890662097931,
+          "valid_acc": 0.8426,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 157,
+          "train_loss": 0.013778818483352662,
+          "train_acc": 0.99694,
+          "valid_loss": 1.5396000199496747,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 158,
+          "train_loss": 0.01403104701012373,
+          "train_acc": 0.99684,
+          "valid_loss": 1.5156602596640587,
+          "valid_acc": 0.8436,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 159,
+          "train_loss": 0.01364441491857171,
+          "train_acc": 0.99706,
+          "valid_loss": 1.5095689518809319,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 160,
+          "train_loss": 0.013680746057629586,
+          "train_acc": 0.99688,
+          "valid_loss": 1.4949991318821907,
+          "valid_acc": 0.8434,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 161,
+          "train_loss": 0.01341478129684925,
+          "train_acc": 0.9973,
+          "valid_loss": 1.4968178166389465,
+          "valid_acc": 0.8432,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 162,
+          "train_loss": 0.012761015977561473,
+          "train_acc": 0.99762,
+          "valid_loss": 1.517343704509735,
+          "valid_acc": 0.842,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 163,
+          "train_loss": 0.012687863934785128,
+          "train_acc": 0.9968,
+          "valid_loss": 1.5066753427505493,
+          "valid_acc": 0.8438,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 164,
+          "train_loss": 0.013062177941799164,
+          "train_acc": 0.99702,
+          "valid_loss": 1.5077559383630752,
+          "valid_acc": 0.8439,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 165,
+          "train_loss": 0.012703178814947605,
+          "train_acc": 0.99714,
+          "valid_loss": 1.4972382917642593,
+          "valid_acc": 0.8434,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 166,
+          "train_loss": 0.012506533600389957,
+          "train_acc": 0.99748,
+          "valid_loss": 1.5168170112490653,
+          "valid_acc": 0.8429,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 167,
+          "train_loss": 0.012301936377882957,
+          "train_acc": 0.9975,
+          "valid_loss": 1.5060164338469506,
+          "valid_acc": 0.8426,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 168,
+          "train_loss": 0.01200848329976201,
+          "train_acc": 0.99756,
+          "valid_loss": 1.5346196417331694,
+          "valid_acc": 0.8436,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 169,
+          "train_loss": 0.012869711064100266,
+          "train_acc": 0.99732,
+          "valid_loss": 1.5135283736228944,
+          "valid_acc": 0.8423,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 170,
+          "train_loss": 0.012208851252794266,
+          "train_acc": 0.99736,
+          "valid_loss": 1.5184341211557388,
+          "valid_acc": 0.8432,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 171,
+          "train_loss": 0.012066210369616748,
+          "train_acc": 0.9976,
+          "valid_loss": 1.525310916185379,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 172,
+          "train_loss": 0.011996153145432472,
+          "train_acc": 0.9974,
+          "valid_loss": 1.5091159729719161,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 173,
+          "train_loss": 0.011982160940766335,
+          "train_acc": 0.99724,
+          "valid_loss": 1.5046376355171203,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 174,
+          "train_loss": 0.012161843948960305,
+          "train_acc": 0.9974,
+          "valid_loss": 1.5204666218996048,
+          "valid_acc": 0.8435,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 175,
+          "train_loss": 0.011766797100901604,
+          "train_acc": 0.99724,
+          "valid_loss": 1.5040956640481948,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 176,
+          "train_loss": 0.011833723798394204,
+          "train_acc": 0.99766,
+          "valid_loss": 1.4966742688179016,
+          "valid_acc": 0.843,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 177,
+          "train_loss": 0.01122752928942442,
+          "train_acc": 0.9979,
+          "valid_loss": 1.5125328415870667,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 178,
+          "train_loss": 0.011472499237358571,
+          "train_acc": 0.99756,
+          "valid_loss": 1.5445502753973006,
+          "valid_acc": 0.8435,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 179,
+          "train_loss": 0.011186107530593872,
+          "train_acc": 0.99762,
+          "valid_loss": 1.530245288181305,
+          "valid_acc": 0.8436,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 180,
+          "train_loss": 0.011083532776236533,
+          "train_acc": 0.99804,
+          "valid_loss": 1.526033316373825,
+          "valid_acc": 0.8437,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 181,
+          "train_loss": 0.010933747973442078,
+          "train_acc": 0.99788,
+          "valid_loss": 1.497958447098732,
+          "valid_acc": 0.8432,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 182,
+          "train_loss": 0.010488459929376841,
+          "train_acc": 0.99788,
+          "valid_loss": 1.5300857642412187,
+          "valid_acc": 0.8442,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 183,
+          "train_loss": 0.011079238417744636,
+          "train_acc": 0.99788,
+          "valid_loss": 1.5209149667739867,
+          "valid_acc": 0.8441,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 184,
+          "train_loss": 0.011157468104362488,
+          "train_acc": 0.99764,
+          "valid_loss": 1.4997485377073287,
+          "valid_acc": 0.8441,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 185,
+          "train_loss": 0.010817939977645874,
+          "train_acc": 0.9976,
+          "valid_loss": 1.5163195952177049,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 186,
+          "train_loss": 0.011138474045395851,
+          "train_acc": 0.99758,
+          "valid_loss": 1.4726387870073319,
+          "valid_acc": 0.8438,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 187,
+          "train_loss": 0.010643842443823815,
+          "train_acc": 0.99756,
+          "valid_loss": 1.5363992940187454,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 188,
+          "train_loss": 0.010729647111147642,
+          "train_acc": 0.99776,
+          "valid_loss": 1.5142940877079965,
+          "valid_acc": 0.8435,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 189,
+          "train_loss": 0.010011084780395032,
+          "train_acc": 0.99826,
+          "valid_loss": 1.5049322237730027,
+          "valid_acc": 0.8442,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 190,
+          "train_loss": 0.010205821544528008,
+          "train_acc": 0.99798,
+          "valid_loss": 1.5231635188341142,
+          "valid_acc": 0.8452,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 191,
+          "train_loss": 0.01095244797617197,
+          "train_acc": 0.99756,
+          "valid_loss": 1.5352594145298004,
+          "valid_acc": 0.8437,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 192,
+          "train_loss": 0.01053495441108942,
+          "train_acc": 0.99798,
+          "valid_loss": 1.555889734840393,
+          "valid_acc": 0.8444,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 193,
+          "train_loss": 0.01017781680226326,
+          "train_acc": 0.99798,
+          "valid_loss": 1.5272293659448624,
+          "valid_acc": 0.8437,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 194,
+          "train_loss": 0.009931269141435623,
+          "train_acc": 0.99834,
+          "valid_loss": 1.5498365032196044,
+          "valid_acc": 0.8444,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 195,
+          "train_loss": 0.010403841412067414,
+          "train_acc": 0.99798,
+          "valid_loss": 1.524561449956894,
+          "valid_acc": 0.8446,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 196,
+          "train_loss": 0.010071176107227802,
+          "train_acc": 0.99812,
+          "valid_loss": 1.5321805114746094,
+          "valid_acc": 0.8443,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 197,
+          "train_loss": 0.010673092473596334,
+          "train_acc": 0.99784,
+          "valid_loss": 1.5290078590631484,
+          "valid_acc": 0.8439,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 198,
+          "train_loss": 0.010133255067765712,
+          "train_acc": 0.9981,
+          "valid_loss": 1.5352080517292022,
+          "valid_acc": 0.8443,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 199,
+          "train_loss": 0.009837240777015687,
+          "train_acc": 0.99824,
+          "valid_loss": 1.5107153046846389,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        }
+      ],
+      "final": {
+        "valid_acc": 0.8433,
+        "valid_loss": 1.5107153046846389,
+        "train_acc": 0.99824,
+        "attack_success_rate": 0.0,
+        "target_pred": [
+          2
+        ],
+        "target_true": [
+          2
+        ],
+        "target_adv": [
+          5
+        ]
+      }
+    },
+    {
+      "trial": 1,
+      "seed": 1338,
+      "history": [
+        {
+          "epoch": 0,
+          "train_loss": 1.5823737229156494,
+          "train_acc": 0.41404,
+          "valid_loss": 1.6489132888793945,
+          "valid_acc": 0.4615,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 1,
+          "train_loss": 1.0181283387374878,
+          "train_acc": 0.63784,
+          "valid_loss": 1.5398414194107055,
+          "valid_acc": 0.5807,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.7969573965072632,
+          "train_acc": 0.71888,
+          "valid_loss": 1.3749635491371155,
+          "valid_acc": 0.6572,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.6640981533050537,
+          "train_acc": 0.7686,
+          "valid_loss": 1.559984250164032,
+          "valid_acc": 0.6449,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.5792555336761475,
+          "train_acc": 0.79956,
+          "valid_loss": 1.8362995575904846,
+          "valid_acc": 0.6363,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.5287802748298644,
+          "train_acc": 0.81592,
+          "valid_loss": 1.2305472986221313,
+          "valid_acc": 0.7104,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.48772819499969483,
+          "train_acc": 0.8325,
+          "valid_loss": 1.3779577162742616,
+          "valid_acc": 0.7067,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.45811316350936887,
+          "train_acc": 0.84292,
+          "valid_loss": 1.5337940135478974,
+          "valid_acc": 0.737,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.4336496770954132,
+          "train_acc": 0.8507,
+          "valid_loss": 1.179522772884369,
+          "valid_acc": 0.7033,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.4136454792118073,
+          "train_acc": 0.85816,
+          "valid_loss": 1.8567881826400756,
+          "valid_acc": 0.671,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.39904197135925296,
+          "train_acc": 0.86174,
+          "valid_loss": 1.198482601904869,
+          "valid_acc": 0.7321,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.38494600754737857,
+          "train_acc": 0.86852,
+          "valid_loss": 1.5707432873249054,
+          "valid_acc": 0.7092,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.3746564502048492,
+          "train_acc": 0.87046,
+          "valid_loss": 1.731185425901413,
+          "valid_acc": 0.7073,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 13,
+          "train_loss": 0.3624675283050537,
+          "train_acc": 0.87468,
+          "valid_loss": 1.2067016198396683,
+          "valid_acc": 0.6928,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 14,
+          "train_loss": 0.347056165523529,
+          "train_acc": 0.88168,
+          "valid_loss": 1.6757150701999664,
+          "valid_acc": 0.7034,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 15,
+          "train_loss": 0.34307312299728393,
+          "train_acc": 0.88218,
+          "valid_loss": 1.5711614400863647,
+          "valid_acc": 0.6976,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.3365624134254456,
+          "train_acc": 0.88476,
+          "valid_loss": 2.0277347861289976,
+          "valid_acc": 0.7233,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 17,
+          "train_loss": 0.32877876150131224,
+          "train_acc": 0.8866,
+          "valid_loss": 1.097491506111622,
+          "valid_acc": 0.7572,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 18,
+          "train_loss": 0.32396973127365114,
+          "train_acc": 0.88842,
+          "valid_loss": 1.5159074580192566,
+          "valid_acc": 0.7612,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 19,
+          "train_loss": 0.3115769532585144,
+          "train_acc": 0.89206,
+          "valid_loss": 1.24298712747097,
+          "valid_acc": 0.7672,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 20,
+          "train_loss": 0.3138097918319702,
+          "train_acc": 0.8928,
+          "valid_loss": 1.3630288601398468,
+          "valid_acc": 0.7583,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 21,
+          "train_loss": 0.311262151594162,
+          "train_acc": 0.89174,
+          "valid_loss": 1.2798114893913268,
+          "valid_acc": 0.7406,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 22,
+          "train_loss": 0.30657326045036315,
+          "train_acc": 0.8951,
+          "valid_loss": 1.4294422424316406,
+          "valid_acc": 0.7529,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 23,
+          "train_loss": 0.2989469000339508,
+          "train_acc": 0.89718,
+          "valid_loss": 1.3285147982120513,
+          "valid_acc": 0.754,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 24,
+          "train_loss": 0.29504943711280823,
+          "train_acc": 0.89934,
+          "valid_loss": 1.6311894739151,
+          "valid_acc": 0.7303,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 25,
+          "train_loss": 0.2935122044467926,
+          "train_acc": 0.90014,
+          "valid_loss": 1.2563424730777741,
+          "valid_acc": 0.7689,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 26,
+          "train_loss": 0.28854701075553896,
+          "train_acc": 0.90096,
+          "valid_loss": 1.559802134180069,
+          "valid_acc": 0.7651,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 27,
+          "train_loss": 0.28724541292190553,
+          "train_acc": 0.9015,
+          "valid_loss": 1.3848738229751587,
+          "valid_acc": 0.767,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 28,
+          "train_loss": 0.28448682445526124,
+          "train_acc": 0.90194,
+          "valid_loss": 1.2118097362995148,
+          "valid_acc": 0.7606,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 29,
+          "train_loss": 0.284920950627327,
+          "train_acc": 0.90168,
+          "valid_loss": 1.2578487779140473,
+          "valid_acc": 0.7679,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 30,
+          "train_loss": 0.28127613171577454,
+          "train_acc": 0.90354,
+          "valid_loss": 1.4111637174129485,
+          "valid_acc": 0.7671,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 31,
+          "train_loss": 0.2765759993553162,
+          "train_acc": 0.90456,
+          "valid_loss": 1.518080812048912,
+          "valid_acc": 0.7488,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 32,
+          "train_loss": 0.2732993859529495,
+          "train_acc": 0.90682,
+          "valid_loss": 1.5934454744338988,
+          "valid_acc": 0.7555,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 33,
+          "train_loss": 0.2737298613357544,
+          "train_acc": 0.90416,
+          "valid_loss": 1.4746125468015672,
+          "valid_acc": 0.7663,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 34,
+          "train_loss": 0.2705236698055267,
+          "train_acc": 0.9067,
+          "valid_loss": 1.5180716565430163,
+          "valid_acc": 0.7787,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            7
+          ]
+        },
+        {
+          "epoch": 35,
+          "train_loss": 0.263958041305542,
+          "train_acc": 0.90886,
+          "valid_loss": 1.8864917346954346,
+          "valid_acc": 0.7279,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            0
+          ]
+        },
+        {
+          "epoch": 36,
+          "train_loss": 0.27190322765350344,
+          "train_acc": 0.90614,
+          "valid_loss": 1.3395717055857181,
+          "valid_acc": 0.765,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 37,
+          "train_loss": 0.26821942477226257,
+          "train_acc": 0.90782,
+          "valid_loss": 1.3413442915439606,
+          "valid_acc": 0.7339,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 38,
+          "train_loss": 0.2622180158615112,
+          "train_acc": 0.91006,
+          "valid_loss": 1.308038833284378,
+          "valid_acc": 0.7574,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 39,
+          "train_loss": 0.2664803013420105,
+          "train_acc": 0.9086,
+          "valid_loss": 1.6498739318609237,
+          "valid_acc": 0.7591,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 40,
+          "train_loss": 0.25770784676551817,
+          "train_acc": 0.91208,
+          "valid_loss": 1.363047451543808,
+          "valid_acc": 0.7842,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 41,
+          "train_loss": 0.2574528855419159,
+          "train_acc": 0.91158,
+          "valid_loss": 1.4940749231338502,
+          "valid_acc": 0.7506,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 42,
+          "train_loss": 0.26258663978576663,
+          "train_acc": 0.90956,
+          "valid_loss": 1.361486033821106,
+          "valid_acc": 0.7811,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 43,
+          "train_loss": 0.25573888693332675,
+          "train_acc": 0.91058,
+          "valid_loss": 1.6096971221208571,
+          "valid_acc": 0.751,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 44,
+          "train_loss": 0.2520707384300232,
+          "train_acc": 0.91356,
+          "valid_loss": 1.4564554877474905,
+          "valid_acc": 0.7651,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 45,
+          "train_loss": 0.2581229609489441,
+          "train_acc": 0.9099,
+          "valid_loss": 1.5920761417388916,
+          "valid_acc": 0.7306,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 46,
+          "train_loss": 0.25276700653076173,
+          "train_acc": 0.91544,
+          "valid_loss": 1.37112073636055,
+          "valid_acc": 0.7769,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 47,
+          "train_loss": 0.25433112011909487,
+          "train_acc": 0.91234,
+          "valid_loss": 1.2185231925487519,
+          "valid_acc": 0.7882,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 48,
+          "train_loss": 0.25503485865592956,
+          "train_acc": 0.9132,
+          "valid_loss": 1.331306841289997,
+          "valid_acc": 0.7704,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 49,
+          "train_loss": 0.2508847822284698,
+          "train_acc": 0.9144,
+          "valid_loss": 1.6347230695009232,
+          "valid_acc": 0.7633,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 50,
+          "train_loss": 0.25470618501663206,
+          "train_acc": 0.91156,
+          "valid_loss": 1.2845774435043336,
+          "valid_acc": 0.7715,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 51,
+          "train_loss": 0.24576555682659149,
+          "train_acc": 0.9143,
+          "valid_loss": 1.4815683108568192,
+          "valid_acc": 0.7808,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 52,
+          "train_loss": 0.24386126680374146,
+          "train_acc": 0.91692,
+          "valid_loss": 1.566279031395912,
+          "valid_acc": 0.768,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 53,
+          "train_loss": 0.24981203798294066,
+          "train_acc": 0.91436,
+          "valid_loss": 1.645816231739521,
+          "valid_acc": 0.735,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            7
+          ]
+        },
+        {
+          "epoch": 54,
+          "train_loss": 0.24368615107536315,
+          "train_acc": 0.91558,
+          "valid_loss": 1.4294703517436982,
+          "valid_acc": 0.7813,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 55,
+          "train_loss": 0.24349847379684447,
+          "train_acc": 0.91562,
+          "valid_loss": 1.49209543145895,
+          "valid_acc": 0.7436,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 56,
+          "train_loss": 0.24748675798416137,
+          "train_acc": 0.91458,
+          "valid_loss": 1.2840506842136383,
+          "valid_acc": 0.7828,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 57,
+          "train_loss": 0.23853890182495116,
+          "train_acc": 0.9185,
+          "valid_loss": 1.5698203694105148,
+          "valid_acc": 0.7723,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 58,
+          "train_loss": 0.24401585387706756,
+          "train_acc": 0.91584,
+          "valid_loss": 1.3695567002773286,
+          "valid_acc": 0.7677,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 59,
+          "train_loss": 0.24013727593660356,
+          "train_acc": 0.91722,
+          "valid_loss": 1.2896433562517167,
+          "valid_acc": 0.7689,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 60,
+          "train_loss": 0.2375778772211075,
+          "train_acc": 0.91828,
+          "valid_loss": 1.1454851034641267,
+          "valid_acc": 0.7993,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 61,
+          "train_loss": 0.2400274807214737,
+          "train_acc": 0.91744,
+          "valid_loss": 1.0926876499176026,
+          "valid_acc": 0.7939,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 62,
+          "train_loss": 0.24071981208801269,
+          "train_acc": 0.91692,
+          "valid_loss": 1.2754616812705994,
+          "valid_acc": 0.7255,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 63,
+          "train_loss": 0.2371037322807312,
+          "train_acc": 0.9181,
+          "valid_loss": 1.2507508907556535,
+          "valid_acc": 0.7734,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 64,
+          "train_loss": 0.23411630833625793,
+          "train_acc": 0.9196,
+          "valid_loss": 1.3906549340248109,
+          "valid_acc": 0.7255,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 65,
+          "train_loss": 0.23388641728401183,
+          "train_acc": 0.91938,
+          "valid_loss": 1.4625890417933465,
+          "valid_acc": 0.7469,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 66,
+          "train_loss": 0.2376381862449646,
+          "train_acc": 0.91758,
+          "valid_loss": 1.4731006030201912,
+          "valid_acc": 0.7438,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 67,
+          "train_loss": 0.2374797542667389,
+          "train_acc": 0.91872,
+          "valid_loss": 1.304024424737692,
+          "valid_acc": 0.7752,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 68,
+          "train_loss": 0.23306172704696657,
+          "train_acc": 0.91952,
+          "valid_loss": 1.557888929414749,
+          "valid_acc": 0.7637,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 69,
+          "train_loss": 0.24327075850486754,
+          "train_acc": 0.91582,
+          "valid_loss": 1.2989776774644852,
+          "valid_acc": 0.7764,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 70,
+          "train_loss": 0.2321004553413391,
+          "train_acc": 0.91818,
+          "valid_loss": 1.3758703401207923,
+          "valid_acc": 0.765,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 71,
+          "train_loss": 0.23015006289482118,
+          "train_acc": 0.92172,
+          "valid_loss": 1.3475778964996339,
+          "valid_acc": 0.7811,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 72,
+          "train_loss": 0.22909666246414184,
+          "train_acc": 0.92132,
+          "valid_loss": 1.486685572063923,
+          "valid_acc": 0.7528,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 73,
+          "train_loss": 0.23156739616394043,
+          "train_acc": 0.92082,
+          "valid_loss": 1.4785931890487671,
+          "valid_acc": 0.788,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 74,
+          "train_loss": 0.2377656791305542,
+          "train_acc": 0.9192,
+          "valid_loss": 1.3005358706235886,
+          "valid_acc": 0.7825,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 75,
+          "train_loss": 0.23317809357166291,
+          "train_acc": 0.92026,
+          "valid_loss": 1.2114372983932495,
+          "valid_acc": 0.7684,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 76,
+          "train_loss": 0.22779168528556823,
+          "train_acc": 0.9224,
+          "valid_loss": 1.2973584458947183,
+          "valid_acc": 0.7704,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 77,
+          "train_loss": 0.22609623260498046,
+          "train_acc": 0.92166,
+          "valid_loss": 1.2209588024735452,
+          "valid_acc": 0.7855,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 78,
+          "train_loss": 0.23273049772262575,
+          "train_acc": 0.92,
+          "valid_loss": 1.5385490471959113,
+          "valid_acc": 0.7597,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 79,
+          "train_loss": 0.2281739600944519,
+          "train_acc": 0.92228,
+          "valid_loss": 1.4139467134714128,
+          "valid_acc": 0.779,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 80,
+          "train_loss": 0.2243455078983307,
+          "train_acc": 0.92176,
+          "valid_loss": 1.0807892254441978,
+          "valid_acc": 0.7724,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 81,
+          "train_loss": 0.22836079671382903,
+          "train_acc": 0.92068,
+          "valid_loss": 1.3108074844717978,
+          "valid_acc": 0.7777,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 82,
+          "train_loss": 0.22694463894844055,
+          "train_acc": 0.92288,
+          "valid_loss": 1.5617675002217293,
+          "valid_acc": 0.7532,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 83,
+          "train_loss": 0.2246223450088501,
+          "train_acc": 0.9215,
+          "valid_loss": 1.3817262200474738,
+          "valid_acc": 0.7999,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 84,
+          "train_loss": 0.2294671850824356,
+          "train_acc": 0.92042,
+          "valid_loss": 1.3033708861351012,
+          "valid_acc": 0.7921,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 85,
+          "train_loss": 0.2298803817796707,
+          "train_acc": 0.92064,
+          "valid_loss": 1.5370609756469726,
+          "valid_acc": 0.7735,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            6
+          ]
+        },
+        {
+          "epoch": 86,
+          "train_loss": 0.22755950105667114,
+          "train_acc": 0.92176,
+          "valid_loss": 1.2714732043743133,
+          "valid_acc": 0.7914,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 87,
+          "train_loss": 0.2244564380788803,
+          "train_acc": 0.92224,
+          "valid_loss": 1.4093279494285584,
+          "valid_acc": 0.7701,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 88,
+          "train_loss": 0.22051586411476135,
+          "train_acc": 0.924,
+          "valid_loss": 1.4513599376678468,
+          "valid_acc": 0.7538,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 89,
+          "train_loss": 0.22816651421546935,
+          "train_acc": 0.9217,
+          "valid_loss": 1.3779388261198997,
+          "valid_acc": 0.7799,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 90,
+          "train_loss": 0.22654058270931243,
+          "train_acc": 0.92158,
+          "valid_loss": 1.2104111701488496,
+          "valid_acc": 0.7881,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 91,
+          "train_loss": 0.2246972123527527,
+          "train_acc": 0.9242,
+          "valid_loss": 1.3613599770069122,
+          "valid_acc": 0.7857,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 92,
+          "train_loss": 0.21898374433517456,
+          "train_acc": 0.92404,
+          "valid_loss": 1.370516434830427,
+          "valid_acc": 0.7774,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 93,
+          "train_loss": 0.22483107625007628,
+          "train_acc": 0.92396,
+          "valid_loss": 1.3938303319215775,
+          "valid_acc": 0.7817,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 94,
+          "train_loss": 0.22549512373924255,
+          "train_acc": 0.92196,
+          "valid_loss": 1.3203005573868751,
+          "valid_acc": 0.7607,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 95,
+          "train_loss": 0.21748254722595214,
+          "train_acc": 0.92436,
+          "valid_loss": 1.6099315192699433,
+          "valid_acc": 0.7731,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 96,
+          "train_loss": 0.2258163714790344,
+          "train_acc": 0.92222,
+          "valid_loss": 1.3436162774324416,
+          "valid_acc": 0.788,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 97,
+          "train_loss": 0.22392758922576905,
+          "train_acc": 0.92352,
+          "valid_loss": 1.2364685518980025,
+          "valid_acc": 0.7935,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 98,
+          "train_loss": 0.21971381282806396,
+          "train_acc": 0.92518,
+          "valid_loss": 1.0782978620290755,
+          "valid_acc": 0.7925,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 99,
+          "train_loss": 0.22068077465057373,
+          "train_acc": 0.92482,
+          "valid_loss": 1.3253014622867108,
+          "valid_acc": 0.7781,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 100,
+          "train_loss": 0.13741277829170226,
+          "train_acc": 0.95424,
+          "valid_loss": 1.2666934700965882,
+          "valid_acc": 0.8327,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 101,
+          "train_loss": 0.10390169614315033,
+          "train_acc": 0.96558,
+          "valid_loss": 1.2719146471872926,
+          "valid_acc": 0.8355,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 102,
+          "train_loss": 0.09516917646884918,
+          "train_acc": 0.96858,
+          "valid_loss": 1.3602090493485333,
+          "valid_acc": 0.8368,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 103,
+          "train_loss": 0.08809155173301697,
+          "train_acc": 0.97088,
+          "valid_loss": 1.3784578801088034,
+          "valid_acc": 0.8364,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 104,
+          "train_loss": 0.08147475548267365,
+          "train_acc": 0.97298,
+          "valid_loss": 1.3469681114733218,
+          "valid_acc": 0.8382,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 105,
+          "train_loss": 0.07485069553613663,
+          "train_acc": 0.97538,
+          "valid_loss": 1.3945433125771582,
+          "valid_acc": 0.8366,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 106,
+          "train_loss": 0.07252664150476455,
+          "train_acc": 0.97566,
+          "valid_loss": 1.4164414375672116,
+          "valid_acc": 0.8399,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 107,
+          "train_loss": 0.0695582045674324,
+          "train_acc": 0.97732,
+          "valid_loss": 1.468129662816599,
+          "valid_acc": 0.8391,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 108,
+          "train_loss": 0.0660803025841713,
+          "train_acc": 0.97826,
+          "valid_loss": 1.4566558743769302,
+          "valid_acc": 0.8392,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 109,
+          "train_loss": 0.06465959288954735,
+          "train_acc": 0.97862,
+          "valid_loss": 1.4524726016242058,
+          "valid_acc": 0.8404,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 110,
+          "train_loss": 0.06125840726852417,
+          "train_acc": 0.9795,
+          "valid_loss": 1.4899369465455412,
+          "valid_acc": 0.8399,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 111,
+          "train_loss": 0.05871688336014748,
+          "train_acc": 0.98056,
+          "valid_loss": 1.4513793200854213,
+          "valid_acc": 0.8391,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 112,
+          "train_loss": 0.05652161012411117,
+          "train_acc": 0.98164,
+          "valid_loss": 1.5157569947158918,
+          "valid_acc": 0.8386,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 113,
+          "train_loss": 0.05305858251094818,
+          "train_acc": 0.98256,
+          "valid_loss": 1.5184836549112573,
+          "valid_acc": 0.8403,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 114,
+          "train_loss": 0.05089555651903153,
+          "train_acc": 0.98364,
+          "valid_loss": 1.5034921720991843,
+          "valid_acc": 0.8398,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 115,
+          "train_loss": 0.04999439154148102,
+          "train_acc": 0.9828,
+          "valid_loss": 1.4938113292099908,
+          "valid_acc": 0.8386,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 116,
+          "train_loss": 0.04801316270828247,
+          "train_acc": 0.98402,
+          "valid_loss": 1.5314059619504958,
+          "valid_acc": 0.8385,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 117,
+          "train_loss": 0.04674237349510193,
+          "train_acc": 0.98452,
+          "valid_loss": 1.5406275037679822,
+          "valid_acc": 0.8385,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 118,
+          "train_loss": 0.046003265572786334,
+          "train_acc": 0.98472,
+          "valid_loss": 1.5444020207822322,
+          "valid_acc": 0.8406,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 119,
+          "train_loss": 0.04619964155197143,
+          "train_acc": 0.9848,
+          "valid_loss": 1.5332403200592846,
+          "valid_acc": 0.8381,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 120,
+          "train_loss": 0.04210023203611374,
+          "train_acc": 0.98634,
+          "valid_loss": 1.5490491445252672,
+          "valid_acc": 0.841,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 121,
+          "train_loss": 0.04313085649371147,
+          "train_acc": 0.98586,
+          "valid_loss": 1.5147847959175706,
+          "valid_acc": 0.8403,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 122,
+          "train_loss": 0.042008099737763406,
+          "train_acc": 0.98608,
+          "valid_loss": 1.6200866056874395,
+          "valid_acc": 0.8397,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 123,
+          "train_loss": 0.040995063825845716,
+          "train_acc": 0.98672,
+          "valid_loss": 1.535775035440363,
+          "valid_acc": 0.8387,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 124,
+          "train_loss": 0.03866339462280274,
+          "train_acc": 0.98792,
+          "valid_loss": 1.556370935748145,
+          "valid_acc": 0.8398,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 125,
+          "train_loss": 0.03863846281051636,
+          "train_acc": 0.98716,
+          "valid_loss": 1.5128758903428912,
+          "valid_acc": 0.8398,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 126,
+          "train_loss": 0.036601790249347683,
+          "train_acc": 0.98876,
+          "valid_loss": 1.47020804874897,
+          "valid_acc": 0.8402,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 127,
+          "train_loss": 0.03808864293217659,
+          "train_acc": 0.98736,
+          "valid_loss": 1.5502199992574752,
+          "valid_acc": 0.8394,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 128,
+          "train_loss": 0.03637744423031807,
+          "train_acc": 0.98812,
+          "valid_loss": 1.5182480512340553,
+          "valid_acc": 0.8384,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 129,
+          "train_loss": 0.03469265164852142,
+          "train_acc": 0.98908,
+          "valid_loss": 1.5708606418155133,
+          "valid_acc": 0.8393,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 130,
+          "train_loss": 0.035220292563438414,
+          "train_acc": 0.98888,
+          "valid_loss": 1.568872568051517,
+          "valid_acc": 0.8368,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 131,
+          "train_loss": 0.03630381081700325,
+          "train_acc": 0.98778,
+          "valid_loss": 1.549876085888222,
+          "valid_acc": 0.8381,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 132,
+          "train_loss": 0.03519905512809753,
+          "train_acc": 0.98862,
+          "valid_loss": 1.5540583282213658,
+          "valid_acc": 0.8393,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 133,
+          "train_loss": 0.03527336387395859,
+          "train_acc": 0.98874,
+          "valid_loss": 1.5659595410570502,
+          "valid_acc": 0.8368,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 134,
+          "train_loss": 0.033957628614902494,
+          "train_acc": 0.98922,
+          "valid_loss": 1.6059347937121988,
+          "valid_acc": 0.84,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 135,
+          "train_loss": 0.03311253793120384,
+          "train_acc": 0.9895,
+          "valid_loss": 1.5390625292230398,
+          "valid_acc": 0.8372,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 136,
+          "train_loss": 0.032121660631001,
+          "train_acc": 0.98932,
+          "valid_loss": 1.5603941155027599,
+          "valid_acc": 0.8382,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 137,
+          "train_loss": 0.03145079211473465,
+          "train_acc": 0.99002,
+          "valid_loss": 1.4831383511811496,
+          "valid_acc": 0.8379,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 138,
+          "train_loss": 0.030361575688123702,
+          "train_acc": 0.99058,
+          "valid_loss": 1.5311029807269574,
+          "valid_acc": 0.8389,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 139,
+          "train_loss": 0.03236753897070885,
+          "train_acc": 0.98978,
+          "valid_loss": 1.4959378325317054,
+          "valid_acc": 0.8365,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 140,
+          "train_loss": 0.032171458716392515,
+          "train_acc": 0.98984,
+          "valid_loss": 1.484885260489583,
+          "valid_acc": 0.8339,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 141,
+          "train_loss": 0.03209185086011886,
+          "train_acc": 0.9898,
+          "valid_loss": 1.4606738747831434,
+          "valid_acc": 0.8374,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 142,
+          "train_loss": 0.032259996019005775,
+          "train_acc": 0.9895,
+          "valid_loss": 1.4892151124849915,
+          "valid_acc": 0.8347,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 143,
+          "train_loss": 0.03093316659808159,
+          "train_acc": 0.99042,
+          "valid_loss": 1.51101270416677,
+          "valid_acc": 0.8387,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 144,
+          "train_loss": 0.03037974365949631,
+          "train_acc": 0.9902,
+          "valid_loss": 1.5434123506614938,
+          "valid_acc": 0.8389,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 145,
+          "train_loss": 0.029237562437057496,
+          "train_acc": 0.99072,
+          "valid_loss": 1.5143575103834273,
+          "valid_acc": 0.8355,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 146,
+          "train_loss": 0.03104933499932289,
+          "train_acc": 0.98978,
+          "valid_loss": 1.489365494621545,
+          "valid_acc": 0.8358,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 147,
+          "train_loss": 0.032631058146953586,
+          "train_acc": 0.98902,
+          "valid_loss": 1.4642290006019174,
+          "valid_acc": 0.8392,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 148,
+          "train_loss": 0.03218190087258816,
+          "train_acc": 0.98958,
+          "valid_loss": 1.6297119716234505,
+          "valid_acc": 0.8349,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 149,
+          "train_loss": 0.03152533946931362,
+          "train_acc": 0.98958,
+          "valid_loss": 1.5383766914020525,
+          "valid_acc": 0.8375,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 150,
+          "train_loss": 0.023737591722011567,
+          "train_acc": 0.99324,
+          "valid_loss": 1.5387910157825333,
+          "valid_acc": 0.8412,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 151,
+          "train_loss": 0.0191411350402236,
+          "train_acc": 0.99484,
+          "valid_loss": 1.5626970331267453,
+          "valid_acc": 0.842,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 152,
+          "train_loss": 0.018432228147313,
+          "train_acc": 0.99528,
+          "valid_loss": 1.5199935415206478,
+          "valid_acc": 0.8432,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 153,
+          "train_loss": 0.017475606963038445,
+          "train_acc": 0.99572,
+          "valid_loss": 1.510065068356786,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 154,
+          "train_loss": 0.016069098914563654,
+          "train_acc": 0.9959,
+          "valid_loss": 1.5144628376252018,
+          "valid_acc": 0.8442,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 155,
+          "train_loss": 0.016517246929705142,
+          "train_acc": 0.9959,
+          "valid_loss": 1.5196205448212101,
+          "valid_acc": 0.8441,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 156,
+          "train_loss": 0.016343997101187707,
+          "train_acc": 0.99572,
+          "valid_loss": 1.4949004896807485,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 157,
+          "train_loss": 0.015146955588161945,
+          "train_acc": 0.99628,
+          "valid_loss": 1.5426981487023643,
+          "valid_acc": 0.8439,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 158,
+          "train_loss": 0.015496128275990485,
+          "train_acc": 0.99626,
+          "valid_loss": 1.5057240458061918,
+          "valid_acc": 0.8422,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 159,
+          "train_loss": 0.015444675810486079,
+          "train_acc": 0.99622,
+          "valid_loss": 1.5173842001462354,
+          "valid_acc": 0.8438,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 160,
+          "train_loss": 0.015216802837848663,
+          "train_acc": 0.99628,
+          "valid_loss": 1.5379052309351042,
+          "valid_acc": 0.8438,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 161,
+          "train_loss": 0.014832731230854988,
+          "train_acc": 0.99646,
+          "valid_loss": 1.5446600596843287,
+          "valid_acc": 0.8445,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 162,
+          "train_loss": 0.014182935218214988,
+          "train_acc": 0.99684,
+          "valid_loss": 1.5056123489495368,
+          "valid_acc": 0.8434,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 163,
+          "train_loss": 0.013843945478573441,
+          "train_acc": 0.99666,
+          "valid_loss": 1.5505122882977127,
+          "valid_acc": 0.8445,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 164,
+          "train_loss": 0.01456915093563497,
+          "train_acc": 0.99644,
+          "valid_loss": 1.5356856762440876,
+          "valid_acc": 0.844,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 165,
+          "train_loss": 0.013933759438395501,
+          "train_acc": 0.9969,
+          "valid_loss": 1.508825979108177,
+          "valid_acc": 0.8436,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 166,
+          "train_loss": 0.013025450800061227,
+          "train_acc": 0.99734,
+          "valid_loss": 1.50099245720841,
+          "valid_acc": 0.8426,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 167,
+          "train_loss": 0.013047299165576697,
+          "train_acc": 0.99702,
+          "valid_loss": 1.5137146908853203,
+          "valid_acc": 0.8439,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 168,
+          "train_loss": 0.012661576489806176,
+          "train_acc": 0.99752,
+          "valid_loss": 1.5275347097147256,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 169,
+          "train_loss": 0.013712598839998246,
+          "train_acc": 0.99694,
+          "valid_loss": 1.4923651423096658,
+          "valid_acc": 0.8434,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 170,
+          "train_loss": 0.0133750674572587,
+          "train_acc": 0.99704,
+          "valid_loss": 1.5352591814044863,
+          "valid_acc": 0.843,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 171,
+          "train_loss": 0.012759344630241394,
+          "train_acc": 0.9973,
+          "valid_loss": 1.519608207185939,
+          "valid_acc": 0.8432,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 172,
+          "train_loss": 0.013363576712757348,
+          "train_acc": 0.99694,
+          "valid_loss": 1.5147042460598052,
+          "valid_acc": 0.8439,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 173,
+          "train_loss": 0.013439508564770221,
+          "train_acc": 0.99682,
+          "valid_loss": 1.5325165762916206,
+          "valid_acc": 0.8435,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 174,
+          "train_loss": 0.012626893568634986,
+          "train_acc": 0.9973,
+          "valid_loss": 1.543079859847948,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 175,
+          "train_loss": 0.01267208421319723,
+          "train_acc": 0.99728,
+          "valid_loss": 1.537237229450047,
+          "valid_acc": 0.8443,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 176,
+          "train_loss": 0.012033442412316799,
+          "train_acc": 0.99754,
+          "valid_loss": 1.5514596908137201,
+          "valid_acc": 0.8441,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 177,
+          "train_loss": 0.01183878734394908,
+          "train_acc": 0.99756,
+          "valid_loss": 1.5375663449745625,
+          "valid_acc": 0.843,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 178,
+          "train_loss": 0.01132675199791789,
+          "train_acc": 0.99772,
+          "valid_loss": 1.546791031915322,
+          "valid_acc": 0.8438,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 179,
+          "train_loss": 0.012961981661021709,
+          "train_acc": 0.99682,
+          "valid_loss": 1.5227618050241842,
+          "valid_acc": 0.8417,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 180,
+          "train_loss": 0.01202225442647934,
+          "train_acc": 0.99738,
+          "valid_loss": 1.5523223336793481,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 181,
+          "train_loss": 0.01126002774477005,
+          "train_acc": 0.99774,
+          "valid_loss": 1.5153193974092602,
+          "valid_acc": 0.8435,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 182,
+          "train_loss": 0.011542991908490658,
+          "train_acc": 0.99772,
+          "valid_loss": 1.5295114776961505,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 183,
+          "train_loss": 0.011487481580376624,
+          "train_acc": 0.99754,
+          "valid_loss": 1.5553825720768422,
+          "valid_acc": 0.844,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 184,
+          "train_loss": 0.011974059475958348,
+          "train_acc": 0.99762,
+          "valid_loss": 1.5569014967102557,
+          "valid_acc": 0.8427,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 185,
+          "train_loss": 0.011451026694476604,
+          "train_acc": 0.99764,
+          "valid_loss": 1.5484740467283875,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 186,
+          "train_loss": 0.01157512199729681,
+          "train_acc": 0.99754,
+          "valid_loss": 1.5560798346616327,
+          "valid_acc": 0.843,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 187,
+          "train_loss": 0.011549143952429295,
+          "train_acc": 0.99752,
+          "valid_loss": 1.5463665368035435,
+          "valid_acc": 0.842,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 188,
+          "train_loss": 0.011321112226843833,
+          "train_acc": 0.9977,
+          "valid_loss": 1.5249214815367014,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 189,
+          "train_loss": 0.011307583736479282,
+          "train_acc": 0.99776,
+          "valid_loss": 1.5372859742537142,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 190,
+          "train_loss": 0.010993890945613384,
+          "train_acc": 0.99794,
+          "valid_loss": 1.5191246945753694,
+          "valid_acc": 0.8423,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 191,
+          "train_loss": 0.01068586521655321,
+          "train_acc": 0.99804,
+          "valid_loss": 1.5488716300364584,
+          "valid_acc": 0.8413,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 192,
+          "train_loss": 0.012060994401350618,
+          "train_acc": 0.99718,
+          "valid_loss": 1.5319287718765437,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 193,
+          "train_loss": 0.011363019218444825,
+          "train_acc": 0.9977,
+          "valid_loss": 1.4987816920101642,
+          "valid_acc": 0.8421,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 194,
+          "train_loss": 0.011168850000053644,
+          "train_acc": 0.9974,
+          "valid_loss": 1.5214961136128753,
+          "valid_acc": 0.8426,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 195,
+          "train_loss": 0.01073813305079937,
+          "train_acc": 0.99778,
+          "valid_loss": 1.5481301906064153,
+          "valid_acc": 0.8418,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 196,
+          "train_loss": 0.010756211539506913,
+          "train_acc": 0.99796,
+          "valid_loss": 1.5491723904136567,
+          "valid_acc": 0.8433,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 197,
+          "train_loss": 0.010398730902671814,
+          "train_acc": 0.99802,
+          "valid_loss": 1.5402896081611515,
+          "valid_acc": 0.8434,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 198,
+          "train_loss": 0.010529893077164888,
+          "train_acc": 0.99806,
+          "valid_loss": 1.5743315179131925,
+          "valid_acc": 0.8429,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 199,
+          "train_loss": 0.010035754660964012,
+          "train_acc": 0.99838,
+          "valid_loss": 1.5124812155418097,
+          "valid_acc": 0.8434,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        }
+      ],
+      "final": {
+        "valid_acc": 0.8434,
+        "valid_loss": 1.5124812155418097,
+        "train_acc": 0.99838,
+        "attack_success_rate": 0.0,
+        "target_pred": [
+          2
+        ],
+        "target_true": [
+          2
+        ],
+        "target_adv": [
+          5
+        ]
+      }
+    },
+    {
+      "trial": 2,
+      "seed": 1339,
+      "history": [
+        {
+          "epoch": 0,
+          "train_loss": 1.6209571362686157,
+          "train_acc": 0.4001,
+          "valid_loss": 1.9415981978416443,
+          "valid_acc": 0.43,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 1,
+          "train_loss": 1.0727774795913696,
+          "train_acc": 0.61418,
+          "valid_loss": 1.4263277173042297,
+          "valid_acc": 0.5856,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.8104301810073853,
+          "train_acc": 0.71484,
+          "valid_loss": 1.8122547278881074,
+          "valid_acc": 0.5169,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.6826650336265564,
+          "train_acc": 0.75996,
+          "valid_loss": 1.4935209090232848,
+          "valid_acc": 0.6306,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.5854664544296264,
+          "train_acc": 0.79626,
+          "valid_loss": 1.683856972670555,
+          "valid_acc": 0.6269,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.5286071752548218,
+          "train_acc": 0.8175,
+          "valid_loss": 1.6666984491825103,
+          "valid_acc": 0.7018,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.4884394127845764,
+          "train_acc": 0.83164,
+          "valid_loss": 1.7547878310203553,
+          "valid_acc": 0.6838,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.44999112636566163,
+          "train_acc": 0.84354,
+          "valid_loss": 1.2787331705570222,
+          "valid_acc": 0.7315,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.4270119239616394,
+          "train_acc": 0.85428,
+          "valid_loss": 1.060642690873146,
+          "valid_acc": 0.7513,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.4063165027523041,
+          "train_acc": 0.8622,
+          "valid_loss": 1.4174850419044496,
+          "valid_acc": 0.6977,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.39013706192970277,
+          "train_acc": 0.86642,
+          "valid_loss": 1.300464724779129,
+          "valid_acc": 0.7459,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.373053977355957,
+          "train_acc": 0.87142,
+          "valid_loss": 1.6889057523727418,
+          "valid_acc": 0.7198,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.363652485666275,
+          "train_acc": 0.87472,
+          "valid_loss": 1.5095527978897094,
+          "valid_acc": 0.715,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 13,
+          "train_loss": 0.3465380408287048,
+          "train_acc": 0.88106,
+          "valid_loss": 1.2996357823610305,
+          "valid_acc": 0.769,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 14,
+          "train_loss": 0.34229008051872256,
+          "train_acc": 0.88272,
+          "valid_loss": 1.7533141770124436,
+          "valid_acc": 0.7261,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 15,
+          "train_loss": 0.33644129242897036,
+          "train_acc": 0.88404,
+          "valid_loss": 1.1757181365013123,
+          "valid_acc": 0.7662,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.3249297553682327,
+          "train_acc": 0.88952,
+          "valid_loss": 1.522670066165924,
+          "valid_acc": 0.7541,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 17,
+          "train_loss": 0.3254553922748566,
+          "train_acc": 0.88792,
+          "valid_loss": 1.5792885932922363,
+          "valid_acc": 0.7384,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 18,
+          "train_loss": 0.3154608284854889,
+          "train_acc": 0.89256,
+          "valid_loss": 1.1453953778743744,
+          "valid_acc": 0.7598,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 19,
+          "train_loss": 0.3056131534290314,
+          "train_acc": 0.89366,
+          "valid_loss": 1.2604807119846344,
+          "valid_acc": 0.7575,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 20,
+          "train_loss": 0.30303237344741824,
+          "train_acc": 0.89786,
+          "valid_loss": 1.3101435173988343,
+          "valid_acc": 0.7394,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 21,
+          "train_loss": 0.30255365674972534,
+          "train_acc": 0.89678,
+          "valid_loss": 1.6503162673473357,
+          "valid_acc": 0.7343,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 22,
+          "train_loss": 0.29347003450393677,
+          "train_acc": 0.89932,
+          "valid_loss": 1.179969486808777,
+          "valid_acc": 0.7653,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 23,
+          "train_loss": 0.2858629212474823,
+          "train_acc": 0.90296,
+          "valid_loss": 1.469993783402443,
+          "valid_acc": 0.7639,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 24,
+          "train_loss": 0.29433773057937623,
+          "train_acc": 0.89864,
+          "valid_loss": 1.3368723046064377,
+          "valid_acc": 0.7641,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 25,
+          "train_loss": 0.2870731957626343,
+          "train_acc": 0.90232,
+          "valid_loss": 1.393432890510559,
+          "valid_acc": 0.7479,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 26,
+          "train_loss": 0.2838047308158875,
+          "train_acc": 0.9014,
+          "valid_loss": 1.3393807881355286,
+          "valid_acc": 0.7704,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 27,
+          "train_loss": 0.2800528838729858,
+          "train_acc": 0.90406,
+          "valid_loss": 1.6483526968955993,
+          "valid_acc": 0.7631,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 28,
+          "train_loss": 0.27656769333839415,
+          "train_acc": 0.90614,
+          "valid_loss": 1.3279066507816315,
+          "valid_acc": 0.7761,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 29,
+          "train_loss": 0.27541884789943694,
+          "train_acc": 0.9053,
+          "valid_loss": 1.2575779334783554,
+          "valid_acc": 0.7759,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 30,
+          "train_loss": 0.27426019607543944,
+          "train_acc": 0.90506,
+          "valid_loss": 1.6194645536661147,
+          "valid_acc": 0.7489,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 31,
+          "train_loss": 0.27214951877593996,
+          "train_acc": 0.90736,
+          "valid_loss": 1.4387299337387085,
+          "valid_acc": 0.7741,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 32,
+          "train_loss": 0.26804265528678894,
+          "train_acc": 0.90746,
+          "valid_loss": 1.3306353930473327,
+          "valid_acc": 0.7778,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 33,
+          "train_loss": 0.26671913029670713,
+          "train_acc": 0.90748,
+          "valid_loss": 1.4751714233875275,
+          "valid_acc": 0.7286,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 34,
+          "train_loss": 0.26510320678710936,
+          "train_acc": 0.90884,
+          "valid_loss": 1.2215581114828586,
+          "valid_acc": 0.7787,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 35,
+          "train_loss": 0.25918837458610533,
+          "train_acc": 0.91078,
+          "valid_loss": 1.5232872669808566,
+          "valid_acc": 0.7585,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 36,
+          "train_loss": 0.26186678559303284,
+          "train_acc": 0.91014,
+          "valid_loss": 1.299332042324543,
+          "valid_acc": 0.7769,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 37,
+          "train_loss": 0.25370321052074435,
+          "train_acc": 0.91314,
+          "valid_loss": 1.600543129014969,
+          "valid_acc": 0.7705,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 38,
+          "train_loss": 0.2566913271331787,
+          "train_acc": 0.91192,
+          "valid_loss": 1.1971076098918916,
+          "valid_acc": 0.767,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 39,
+          "train_loss": 0.256814273853302,
+          "train_acc": 0.91228,
+          "valid_loss": 1.4346492725372315,
+          "valid_acc": 0.7697,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 40,
+          "train_loss": 0.25144610376358034,
+          "train_acc": 0.91318,
+          "valid_loss": 1.1789769626021385,
+          "valid_acc": 0.7842,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 41,
+          "train_loss": 0.24773559956550598,
+          "train_acc": 0.91588,
+          "valid_loss": 1.3601805432081222,
+          "valid_acc": 0.7855,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 42,
+          "train_loss": 0.253761204366684,
+          "train_acc": 0.91214,
+          "valid_loss": 1.757399794602394,
+          "valid_acc": 0.7404,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 43,
+          "train_loss": 0.24851504323005677,
+          "train_acc": 0.91514,
+          "valid_loss": 1.4960702212333679,
+          "valid_acc": 0.7763,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 44,
+          "train_loss": 0.24965322631835937,
+          "train_acc": 0.91488,
+          "valid_loss": 1.5362100752830505,
+          "valid_acc": 0.7815,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 45,
+          "train_loss": 0.2512173923778534,
+          "train_acc": 0.91286,
+          "valid_loss": 1.4235968043729663,
+          "valid_acc": 0.7795,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 46,
+          "train_loss": 0.2489014942550659,
+          "train_acc": 0.91388,
+          "valid_loss": 1.320884806588292,
+          "valid_acc": 0.7938,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 47,
+          "train_loss": 0.2425020742416382,
+          "train_acc": 0.91576,
+          "valid_loss": 1.626259174966812,
+          "valid_acc": 0.7686,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 48,
+          "train_loss": 0.24520538887023927,
+          "train_acc": 0.91554,
+          "valid_loss": 1.252829175376892,
+          "valid_acc": 0.7811,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 49,
+          "train_loss": 0.24119198533058167,
+          "train_acc": 0.91676,
+          "valid_loss": 1.1416661994099617,
+          "valid_acc": 0.7853,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 50,
+          "train_loss": 0.24324277565002442,
+          "train_acc": 0.91562,
+          "valid_loss": 1.2652887293457984,
+          "valid_acc": 0.7641,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 51,
+          "train_loss": 0.24294898740291596,
+          "train_acc": 0.91558,
+          "valid_loss": 0.9477215619087219,
+          "valid_acc": 0.7699,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 52,
+          "train_loss": 0.24148579931259156,
+          "train_acc": 0.91648,
+          "valid_loss": 1.6248830990374088,
+          "valid_acc": 0.7682,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 53,
+          "train_loss": 0.24183461904525758,
+          "train_acc": 0.91702,
+          "valid_loss": 1.4050630452394486,
+          "valid_acc": 0.771,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 54,
+          "train_loss": 0.2373324709367752,
+          "train_acc": 0.91844,
+          "valid_loss": 1.348369828182459,
+          "valid_acc": 0.7465,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 55,
+          "train_loss": 0.2380475589466095,
+          "train_acc": 0.91884,
+          "valid_loss": 1.4819584877729415,
+          "valid_acc": 0.7781,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 56,
+          "train_loss": 0.23757906193733216,
+          "train_acc": 0.9186,
+          "valid_loss": 1.4782759355783464,
+          "valid_acc": 0.7881,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 57,
+          "train_loss": 0.23800154620170594,
+          "train_acc": 0.9169,
+          "valid_loss": 1.5636955973744393,
+          "valid_acc": 0.7757,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 58,
+          "train_loss": 0.23389703620910646,
+          "train_acc": 0.91992,
+          "valid_loss": 1.3783041427969933,
+          "valid_acc": 0.7673,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 59,
+          "train_loss": 0.2349012437915802,
+          "train_acc": 0.91882,
+          "valid_loss": 1.6490167140960694,
+          "valid_acc": 0.7533,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 60,
+          "train_loss": 0.23543988587379455,
+          "train_acc": 0.9181,
+          "valid_loss": 1.1866261250853538,
+          "valid_acc": 0.7888,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 61,
+          "train_loss": 0.2362493597602844,
+          "train_acc": 0.91924,
+          "valid_loss": 1.2128020741939545,
+          "valid_acc": 0.7963,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 62,
+          "train_loss": 0.23529104217529298,
+          "train_acc": 0.91896,
+          "valid_loss": 1.5557908420126885,
+          "valid_acc": 0.7246,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 63,
+          "train_loss": 0.23130726239681243,
+          "train_acc": 0.92018,
+          "valid_loss": 1.297492253601551,
+          "valid_acc": 0.7839,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 64,
+          "train_loss": 0.23720754150390624,
+          "train_acc": 0.91798,
+          "valid_loss": 1.4524060655117035,
+          "valid_acc": 0.775,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 65,
+          "train_loss": 0.2296261075592041,
+          "train_acc": 0.92094,
+          "valid_loss": 1.2564745481491089,
+          "valid_acc": 0.7947,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 66,
+          "train_loss": 0.22851558703422548,
+          "train_acc": 0.92172,
+          "valid_loss": 1.404161658000946,
+          "valid_acc": 0.7559,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 67,
+          "train_loss": 0.23502960159301758,
+          "train_acc": 0.91976,
+          "valid_loss": 1.3479728967666627,
+          "valid_acc": 0.7664,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 68,
+          "train_loss": 0.23188241299629211,
+          "train_acc": 0.92056,
+          "valid_loss": 1.328863840651512,
+          "valid_acc": 0.786,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 69,
+          "train_loss": 0.23076332604408265,
+          "train_acc": 0.9215,
+          "valid_loss": 1.7338677873134614,
+          "valid_acc": 0.7627,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 70,
+          "train_loss": 0.23125382660865784,
+          "train_acc": 0.92046,
+          "valid_loss": 1.4927673024907708,
+          "valid_acc": 0.7743,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 71,
+          "train_loss": 0.23078164437294008,
+          "train_acc": 0.92048,
+          "valid_loss": 1.3131823889389633,
+          "valid_acc": 0.7822,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 72,
+          "train_loss": 0.22988757215738295,
+          "train_acc": 0.92054,
+          "valid_loss": 1.3634512772083283,
+          "valid_acc": 0.7872,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 73,
+          "train_loss": 0.232209478597641,
+          "train_acc": 0.92068,
+          "valid_loss": 1.1308407530546187,
+          "valid_acc": 0.8003,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 74,
+          "train_loss": 0.2241883537387848,
+          "train_acc": 0.92306,
+          "valid_loss": 1.5724558936595916,
+          "valid_acc": 0.7835,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 75,
+          "train_loss": 0.2303583750152588,
+          "train_acc": 0.91956,
+          "valid_loss": 1.3369596613168717,
+          "valid_acc": 0.7932,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 76,
+          "train_loss": 0.22987655550479888,
+          "train_acc": 0.92036,
+          "valid_loss": 1.466969287610054,
+          "valid_acc": 0.7499,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 77,
+          "train_loss": 0.22391167468070983,
+          "train_acc": 0.92396,
+          "valid_loss": 1.4654450165510178,
+          "valid_acc": 0.7721,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 78,
+          "train_loss": 0.22388044907569885,
+          "train_acc": 0.92358,
+          "valid_loss": 1.3158082396030426,
+          "valid_acc": 0.8041,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 79,
+          "train_loss": 0.22182375434875487,
+          "train_acc": 0.9228,
+          "valid_loss": 1.565272806930542,
+          "valid_acc": 0.7713,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 80,
+          "train_loss": 0.22572055963516235,
+          "train_acc": 0.92216,
+          "valid_loss": 1.2670643654465676,
+          "valid_acc": 0.7641,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 81,
+          "train_loss": 0.22506174160957337,
+          "train_acc": 0.92256,
+          "valid_loss": 1.3553443730354309,
+          "valid_acc": 0.7769,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 82,
+          "train_loss": 0.2259375408554077,
+          "train_acc": 0.92222,
+          "valid_loss": 1.7511340905547141,
+          "valid_acc": 0.7293,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            3
+          ]
+        },
+        {
+          "epoch": 83,
+          "train_loss": 0.22393067206382752,
+          "train_acc": 0.92356,
+          "valid_loss": 1.4728447969257832,
+          "valid_acc": 0.7685,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 84,
+          "train_loss": 0.22673962916374207,
+          "train_acc": 0.92092,
+          "valid_loss": 1.3182820690989494,
+          "valid_acc": 0.7794,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 85,
+          "train_loss": 0.21997226801872252,
+          "train_acc": 0.9245,
+          "valid_loss": 1.2067611626148225,
+          "valid_acc": 0.7933,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 86,
+          "train_loss": 0.22826989176750184,
+          "train_acc": 0.92272,
+          "valid_loss": 1.5538587557766586,
+          "valid_acc": 0.7371,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            4
+          ]
+        },
+        {
+          "epoch": 87,
+          "train_loss": 0.22254267929077148,
+          "train_acc": 0.92376,
+          "valid_loss": 1.538602497625351,
+          "valid_acc": 0.7815,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 88,
+          "train_loss": 0.2230709940624237,
+          "train_acc": 0.92368,
+          "valid_loss": 1.464281611251831,
+          "valid_acc": 0.7989,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 89,
+          "train_loss": 0.2213381035900116,
+          "train_acc": 0.9239,
+          "valid_loss": 1.2685991809368133,
+          "valid_acc": 0.7993,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 90,
+          "train_loss": 0.22272729142189027,
+          "train_acc": 0.92338,
+          "valid_loss": 1.2407393923997878,
+          "valid_acc": 0.7925,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 91,
+          "train_loss": 0.2224205338907242,
+          "train_acc": 0.92234,
+          "valid_loss": 1.354918872308731,
+          "valid_acc": 0.7868,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 92,
+          "train_loss": 0.2185677994823456,
+          "train_acc": 0.92512,
+          "valid_loss": 1.558585476565361,
+          "valid_acc": 0.7815,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 93,
+          "train_loss": 0.2189264832687378,
+          "train_acc": 0.9253,
+          "valid_loss": 1.3122836756139993,
+          "valid_acc": 0.7806,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 94,
+          "train_loss": 0.22008647800445558,
+          "train_acc": 0.92492,
+          "valid_loss": 1.2615353894352912,
+          "valid_acc": 0.7868,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 95,
+          "train_loss": 0.22436777201652527,
+          "train_acc": 0.923,
+          "valid_loss": 1.3655968823909759,
+          "valid_acc": 0.7751,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 96,
+          "train_loss": 0.21585109524250032,
+          "train_acc": 0.92548,
+          "valid_loss": 1.6843077089846135,
+          "valid_acc": 0.7797,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 97,
+          "train_loss": 0.22320305203437804,
+          "train_acc": 0.9241,
+          "valid_loss": 1.4119574740067125,
+          "valid_acc": 0.7759,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 98,
+          "train_loss": 0.21974344556331635,
+          "train_acc": 0.92282,
+          "valid_loss": 1.4586538208961486,
+          "valid_acc": 0.7789,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 99,
+          "train_loss": 0.22077104722976684,
+          "train_acc": 0.92458,
+          "valid_loss": 1.280320437836647,
+          "valid_acc": 0.789,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 100,
+          "train_loss": 0.1307618487095833,
+          "train_acc": 0.9571,
+          "valid_loss": 1.2855217658400535,
+          "valid_acc": 0.8341,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 101,
+          "train_loss": 0.10366311912059784,
+          "train_acc": 0.9656,
+          "valid_loss": 1.334031760263443,
+          "valid_acc": 0.8335,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 102,
+          "train_loss": 0.09062789970159531,
+          "train_acc": 0.97092,
+          "valid_loss": 1.345557774579525,
+          "valid_acc": 0.8356,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 103,
+          "train_loss": 0.08432203339815139,
+          "train_acc": 0.97242,
+          "valid_loss": 1.3820539058208465,
+          "valid_acc": 0.8374,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 104,
+          "train_loss": 0.07754338150262832,
+          "train_acc": 0.97378,
+          "valid_loss": 1.3851368287682533,
+          "valid_acc": 0.8379,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 105,
+          "train_loss": 0.0745177403974533,
+          "train_acc": 0.97568,
+          "valid_loss": 1.3967181236803532,
+          "valid_acc": 0.8373,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 106,
+          "train_loss": 0.06920999058246613,
+          "train_acc": 0.9765,
+          "valid_loss": 1.4199214386343957,
+          "valid_acc": 0.8383,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 107,
+          "train_loss": 0.06527555364847183,
+          "train_acc": 0.9784,
+          "valid_loss": 1.419563465476036,
+          "valid_acc": 0.8373,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 108,
+          "train_loss": 0.0634095839703083,
+          "train_acc": 0.97934,
+          "valid_loss": 1.471410996067524,
+          "valid_acc": 0.8361,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 109,
+          "train_loss": 0.06034993145704269,
+          "train_acc": 0.98016,
+          "valid_loss": 1.45381064902246,
+          "valid_acc": 0.8375,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 110,
+          "train_loss": 0.057835619647502896,
+          "train_acc": 0.98138,
+          "valid_loss": 1.4419362118899823,
+          "valid_acc": 0.8378,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 111,
+          "train_loss": 0.05624712894797325,
+          "train_acc": 0.98154,
+          "valid_loss": 1.4965335734903813,
+          "valid_acc": 0.8383,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 112,
+          "train_loss": 0.052015053164958955,
+          "train_acc": 0.98336,
+          "valid_loss": 1.4402622788131236,
+          "valid_acc": 0.8397,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 113,
+          "train_loss": 0.05147639225959778,
+          "train_acc": 0.98314,
+          "valid_loss": 1.4923516673147679,
+          "valid_acc": 0.8381,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 114,
+          "train_loss": 0.0511898070204258,
+          "train_acc": 0.98368,
+          "valid_loss": 1.5343272976398468,
+          "valid_acc": 0.8382,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 115,
+          "train_loss": 0.04810948005437851,
+          "train_acc": 0.98406,
+          "valid_loss": 1.5470510104715824,
+          "valid_acc": 0.8392,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 116,
+          "train_loss": 0.04565847273349762,
+          "train_acc": 0.98528,
+          "valid_loss": 1.5495045773118734,
+          "valid_acc": 0.8374,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 117,
+          "train_loss": 0.046199877824783325,
+          "train_acc": 0.98506,
+          "valid_loss": 1.5103658462762832,
+          "valid_acc": 0.839,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 118,
+          "train_loss": 0.04455987982034683,
+          "train_acc": 0.98574,
+          "valid_loss": 1.553861683320999,
+          "valid_acc": 0.8402,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 119,
+          "train_loss": 0.04323816167116165,
+          "train_acc": 0.9857,
+          "valid_loss": 1.4879222833797336,
+          "valid_acc": 0.8403,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 120,
+          "train_loss": 0.04122864292383194,
+          "train_acc": 0.98664,
+          "valid_loss": 1.5139426960334181,
+          "valid_acc": 0.8371,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 121,
+          "train_loss": 0.03982429223895073,
+          "train_acc": 0.98718,
+          "valid_loss": 1.495302471357584,
+          "valid_acc": 0.8386,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 122,
+          "train_loss": 0.039153909204006195,
+          "train_acc": 0.98722,
+          "valid_loss": 1.4960968095868825,
+          "valid_acc": 0.8396,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 123,
+          "train_loss": 0.03718977427601814,
+          "train_acc": 0.98796,
+          "valid_loss": 1.560749504929781,
+          "valid_acc": 0.8416,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 124,
+          "train_loss": 0.03833100066065788,
+          "train_acc": 0.98776,
+          "valid_loss": 1.548654331946373,
+          "valid_acc": 0.8384,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 125,
+          "train_loss": 0.036316326212883,
+          "train_acc": 0.98824,
+          "valid_loss": 1.563889598235488,
+          "valid_acc": 0.8381,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 126,
+          "train_loss": 0.035913826736807826,
+          "train_acc": 0.98854,
+          "valid_loss": 1.553916122379899,
+          "valid_acc": 0.8385,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 127,
+          "train_loss": 0.03349608840227127,
+          "train_acc": 0.98916,
+          "valid_loss": 1.6186870199918746,
+          "valid_acc": 0.8378,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 128,
+          "train_loss": 0.0344608245921135,
+          "train_acc": 0.98948,
+          "valid_loss": 1.5358787259623408,
+          "valid_acc": 0.8342,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 129,
+          "train_loss": 0.035626264480948446,
+          "train_acc": 0.98844,
+          "valid_loss": 1.5763364834427833,
+          "valid_acc": 0.8388,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 130,
+          "train_loss": 0.03199196398258209,
+          "train_acc": 0.99026,
+          "valid_loss": 1.4793999841555954,
+          "valid_acc": 0.839,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 131,
+          "train_loss": 0.03392519949555397,
+          "train_acc": 0.98906,
+          "valid_loss": 1.5414384481072425,
+          "valid_acc": 0.8384,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 132,
+          "train_loss": 0.03411612965226173,
+          "train_acc": 0.98874,
+          "valid_loss": 1.4525626721143723,
+          "valid_acc": 0.8386,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 133,
+          "train_loss": 0.033556780827641484,
+          "train_acc": 0.98928,
+          "valid_loss": 1.6394405759096147,
+          "valid_acc": 0.8344,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 134,
+          "train_loss": 0.030679243655204774,
+          "train_acc": 0.99038,
+          "valid_loss": 1.5229901405394077,
+          "valid_acc": 0.839,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 135,
+          "train_loss": 0.030684549193382264,
+          "train_acc": 0.9903,
+          "valid_loss": 1.5015867544829846,
+          "valid_acc": 0.836,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 136,
+          "train_loss": 0.0323124458360672,
+          "train_acc": 0.98976,
+          "valid_loss": 1.5414620070695877,
+          "valid_acc": 0.8379,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 137,
+          "train_loss": 0.03023913935482502,
+          "train_acc": 0.99078,
+          "valid_loss": 1.5716352670431137,
+          "valid_acc": 0.8351,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 138,
+          "train_loss": 0.028645025111436843,
+          "train_acc": 0.99164,
+          "valid_loss": 1.6064510460793973,
+          "valid_acc": 0.8345,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 139,
+          "train_loss": 0.03300311162948608,
+          "train_acc": 0.98916,
+          "valid_loss": 1.5807171226620673,
+          "valid_acc": 0.8339,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 140,
+          "train_loss": 0.030638446678519247,
+          "train_acc": 0.99042,
+          "valid_loss": 1.5457814607739448,
+          "valid_acc": 0.8356,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 141,
+          "train_loss": 0.03024134706556797,
+          "train_acc": 0.99036,
+          "valid_loss": 1.5176625453591346,
+          "valid_acc": 0.8351,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 142,
+          "train_loss": 0.0314867972612381,
+          "train_acc": 0.99006,
+          "valid_loss": 1.5501245624184607,
+          "valid_acc": 0.8358,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 143,
+          "train_loss": 0.029540432875156404,
+          "train_acc": 0.99044,
+          "valid_loss": 1.5929699585556985,
+          "valid_acc": 0.8329,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 144,
+          "train_loss": 0.030232073783278465,
+          "train_acc": 0.9903,
+          "valid_loss": 1.4898492268443109,
+          "valid_acc": 0.8378,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 145,
+          "train_loss": 0.030120228848457338,
+          "train_acc": 0.99032,
+          "valid_loss": 1.5044635246038436,
+          "valid_acc": 0.8326,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 146,
+          "train_loss": 0.029985983891785147,
+          "train_acc": 0.9903,
+          "valid_loss": 1.5850933620929717,
+          "valid_acc": 0.8366,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 147,
+          "train_loss": 0.028746365749835967,
+          "train_acc": 0.99092,
+          "valid_loss": 1.6001300200343131,
+          "valid_acc": 0.8336,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 148,
+          "train_loss": 0.030217903298139573,
+          "train_acc": 0.99026,
+          "valid_loss": 1.5392061752259731,
+          "valid_acc": 0.8344,
+          "attack_success_rate": 1.0,
+          "target_pred": [
+            5
+          ]
+        },
+        {
+          "epoch": 149,
+          "train_loss": 0.028190639810860157,
+          "train_acc": 0.9912,
+          "valid_loss": 1.490935878109932,
+          "valid_acc": 0.8339,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 150,
+          "train_loss": 0.022039513566195965,
+          "train_acc": 0.99386,
+          "valid_loss": 1.5345076203167438,
+          "valid_acc": 0.8401,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 151,
+          "train_loss": 0.018158426675200463,
+          "train_acc": 0.99516,
+          "valid_loss": 1.50391164239645,
+          "valid_acc": 0.8413,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 152,
+          "train_loss": 0.017848057979941368,
+          "train_acc": 0.99562,
+          "valid_loss": 1.5102302354812622,
+          "valid_acc": 0.842,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 153,
+          "train_loss": 0.0159609851115942,
+          "train_acc": 0.99598,
+          "valid_loss": 1.5167927752494812,
+          "valid_acc": 0.8419,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 154,
+          "train_loss": 0.015305330845415592,
+          "train_acc": 0.99628,
+          "valid_loss": 1.5233174266219138,
+          "valid_acc": 0.8429,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 155,
+          "train_loss": 0.01525199444413185,
+          "train_acc": 0.9965,
+          "valid_loss": 1.498848252058029,
+          "valid_acc": 0.8426,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 156,
+          "train_loss": 0.015077855044603348,
+          "train_acc": 0.99636,
+          "valid_loss": 1.5252648683845997,
+          "valid_acc": 0.8411,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 157,
+          "train_loss": 0.015286380196213723,
+          "train_acc": 0.9959,
+          "valid_loss": 1.5309612876057626,
+          "valid_acc": 0.8404,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 158,
+          "train_loss": 0.014040914625525475,
+          "train_acc": 0.9968,
+          "valid_loss": 1.530220230281353,
+          "valid_acc": 0.8418,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 159,
+          "train_loss": 0.014647081144750117,
+          "train_acc": 0.9964,
+          "valid_loss": 1.5342573242247104,
+          "valid_acc": 0.842,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 160,
+          "train_loss": 0.013771937232613564,
+          "train_acc": 0.99688,
+          "valid_loss": 1.485341651326418,
+          "valid_acc": 0.8424,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 161,
+          "train_loss": 0.013682584453225136,
+          "train_acc": 0.99732,
+          "valid_loss": 1.5127129926264287,
+          "valid_acc": 0.842,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 162,
+          "train_loss": 0.013442853087186813,
+          "train_acc": 0.99698,
+          "valid_loss": 1.5245788597375154,
+          "valid_acc": 0.8419,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 163,
+          "train_loss": 0.0123913111525774,
+          "train_acc": 0.99738,
+          "valid_loss": 1.528639984637499,
+          "valid_acc": 0.8417,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 164,
+          "train_loss": 0.01281743202716112,
+          "train_acc": 0.99702,
+          "valid_loss": 1.509055552369356,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 165,
+          "train_loss": 0.013297837352752686,
+          "train_acc": 0.99702,
+          "valid_loss": 1.5476102996766568,
+          "valid_acc": 0.8426,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 166,
+          "train_loss": 0.012672306023538112,
+          "train_acc": 0.9973,
+          "valid_loss": 1.5385911039739848,
+          "valid_acc": 0.8429,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 167,
+          "train_loss": 0.012436411322653294,
+          "train_acc": 0.99738,
+          "valid_loss": 1.524910640478134,
+          "valid_acc": 0.8425,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 168,
+          "train_loss": 0.012250866409763694,
+          "train_acc": 0.99762,
+          "valid_loss": 1.5396374227404594,
+          "valid_acc": 0.8417,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 169,
+          "train_loss": 0.012981510369777679,
+          "train_acc": 0.99704,
+          "valid_loss": 1.5583904329061509,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 170,
+          "train_loss": 0.012206967769265175,
+          "train_acc": 0.99752,
+          "valid_loss": 1.511728572741151,
+          "valid_acc": 0.8422,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 171,
+          "train_loss": 0.012207030085921288,
+          "train_acc": 0.99744,
+          "valid_loss": 1.5591417910635472,
+          "valid_acc": 0.8422,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 172,
+          "train_loss": 0.01167822325438261,
+          "train_acc": 0.99782,
+          "valid_loss": 1.5346804817676545,
+          "valid_acc": 0.8427,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 173,
+          "train_loss": 0.012344995319247246,
+          "train_acc": 0.9976,
+          "valid_loss": 1.5010138102501631,
+          "valid_acc": 0.8419,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 174,
+          "train_loss": 0.011758102032840253,
+          "train_acc": 0.99744,
+          "valid_loss": 1.5329664201378823,
+          "valid_acc": 0.843,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 175,
+          "train_loss": 0.011413057055473328,
+          "train_acc": 0.9979,
+          "valid_loss": 1.4933420819938183,
+          "valid_acc": 0.8428,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 176,
+          "train_loss": 0.011515235450863838,
+          "train_acc": 0.99766,
+          "valid_loss": 1.525613422346115,
+          "valid_acc": 0.8423,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 177,
+          "train_loss": 0.011210251641571523,
+          "train_acc": 0.99772,
+          "valid_loss": 1.5294733917415142,
+          "valid_acc": 0.8426,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 178,
+          "train_loss": 0.011353345096483827,
+          "train_acc": 0.99798,
+          "valid_loss": 1.5448774740278721,
+          "valid_acc": 0.8413,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 179,
+          "train_loss": 0.011552809569835662,
+          "train_acc": 0.99728,
+          "valid_loss": 1.5109197992682457,
+          "valid_acc": 0.842,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 180,
+          "train_loss": 0.0109809878385067,
+          "train_acc": 0.99776,
+          "valid_loss": 1.520096038994193,
+          "valid_acc": 0.8426,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 181,
+          "train_loss": 0.01103216499567032,
+          "train_acc": 0.9979,
+          "valid_loss": 1.5349163156569003,
+          "valid_acc": 0.8417,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 182,
+          "train_loss": 0.011153843522965909,
+          "train_acc": 0.99794,
+          "valid_loss": 1.556482091587782,
+          "valid_acc": 0.8423,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 183,
+          "train_loss": 0.011257268458008765,
+          "train_acc": 0.99778,
+          "valid_loss": 1.5405980483084918,
+          "valid_acc": 0.8424,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 184,
+          "train_loss": 0.011208972274661064,
+          "train_acc": 0.9975,
+          "valid_loss": 1.5587031810194254,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 185,
+          "train_loss": 0.010089283711761236,
+          "train_acc": 0.99838,
+          "valid_loss": 1.552525247552991,
+          "valid_acc": 0.8429,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 186,
+          "train_loss": 0.010190709827542305,
+          "train_acc": 0.998,
+          "valid_loss": 1.5435611095666886,
+          "valid_acc": 0.8418,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 187,
+          "train_loss": 0.010413190355598926,
+          "train_acc": 0.99806,
+          "valid_loss": 1.5130954486876727,
+          "valid_acc": 0.8417,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 188,
+          "train_loss": 0.011134641877561807,
+          "train_acc": 0.99778,
+          "valid_loss": 1.5091414515078068,
+          "valid_acc": 0.8423,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 189,
+          "train_loss": 0.011620782692283392,
+          "train_acc": 0.99768,
+          "valid_loss": 1.5536069061428308,
+          "valid_acc": 0.8425,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 190,
+          "train_loss": 0.011126954806149007,
+          "train_acc": 0.99766,
+          "valid_loss": 1.5521733163177966,
+          "valid_acc": 0.8422,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 191,
+          "train_loss": 0.010881411909908056,
+          "train_acc": 0.9978,
+          "valid_loss": 1.5451836235076188,
+          "valid_acc": 0.8421,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 192,
+          "train_loss": 0.01120400606393814,
+          "train_acc": 0.99774,
+          "valid_loss": 1.5201209795117379,
+          "valid_acc": 0.8415,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 193,
+          "train_loss": 0.010311153675615787,
+          "train_acc": 0.99784,
+          "valid_loss": 1.5449297648370266,
+          "valid_acc": 0.8437,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 194,
+          "train_loss": 0.010920361024886369,
+          "train_acc": 0.99782,
+          "valid_loss": 1.5454619218170642,
+          "valid_acc": 0.8431,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 195,
+          "train_loss": 0.010634016528129578,
+          "train_acc": 0.9979,
+          "valid_loss": 1.5493104804575444,
+          "valid_acc": 0.8421,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 196,
+          "train_loss": 0.010190388656258584,
+          "train_acc": 0.99816,
+          "valid_loss": 1.553568301138282,
+          "valid_acc": 0.842,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 197,
+          "train_loss": 0.010706494848430156,
+          "train_acc": 0.99784,
+          "valid_loss": 1.5590715856790542,
+          "valid_acc": 0.8423,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 198,
+          "train_loss": 0.01014093043655157,
+          "train_acc": 0.99798,
+          "valid_loss": 1.543750366562605,
+          "valid_acc": 0.8423,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        },
+        {
+          "epoch": 199,
+          "train_loss": 0.009613157569766044,
+          "train_acc": 0.9983,
+          "valid_loss": 1.566335864081979,
+          "valid_acc": 0.8425,
+          "attack_success_rate": 0.0,
+          "target_pred": [
+            2
+          ]
+        }
+      ],
+      "final": {
+        "valid_acc": 0.8425,
+        "valid_loss": 1.566335864081979,
+        "train_acc": 0.9983,
+        "attack_success_rate": 0.0,
+        "target_pred": [
+          2
+        ],
+        "target_true": [
+          2
+        ],
+        "target_adv": [
+          5
+        ]
+      }
+    }
+  ]
+}

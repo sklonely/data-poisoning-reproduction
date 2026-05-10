@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "n_trials": 6,
+    "n_targets": 5,
+    "total_votes": 30,
+    "baseline_asr_pct_predicted_as_adv": 0.0,
+    "pred_distribution": {
+      "0": 0,
+      "1": 0,
+      "2": 20,
+      "3": 5,
+      "4": 0,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 4,
+      "9": 0
+    },
+    "target_class": 2,
+    "adv_class": 5
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "seed": 1337,
+      "final_preds": [
+        3,
+        8,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "trial": 1,
+      "seed": 1338,
+      "final_preds": [
+        2,
+        8,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "trial": 2,
+      "seed": 1339,
+      "final_preds": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "trial": 3,
+      "seed": 1340,
+      "final_preds": [
+        3,
+        8,
+        6,
+        2,
+        2
+      ]
+    },
+    {
+      "trial": 4,
+      "seed": 1341,
+      "final_preds": [
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "trial": 5,
+      "seed": 1342,
+      "final_preds": [
+        2,
+        8,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "args": {
+    "data_root": "D:/HW/CS 539/final project/data",
+    "arch": "resnet20",
+    "epochs": 200,
+    "batch_size": 128,
+    "lr": 0.1,
+    "momentum": 0.0,
+    "weight_decay": 0.0,
+    "schedule": "100,150",
+    "trials": 6,
+    "seed": 1337,
+    "num_workers": 0,
+    "target_class": 2,
+    "adv_class": 5,
+    "n_targets": 5,
+    "output": "D:/HW/CS 539/final project/hpc-results/baseline-zero-poison.json"
+  }
+}

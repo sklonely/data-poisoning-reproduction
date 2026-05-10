@@ -1,0 +1,122 @@
+{
+  "poisons_path": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-d/fc-crafts/D-fc-bird-dog-t4-n5-nowm.pkl",
+  "pretrained_path": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-d/pretrained/cifar_clean_resnet20.pt",
+  "summary": {
+    "n_trials": 1,
+    "asr_mean": 0.0,
+    "asr_std": 0.0,
+    "valid_acc_mean": 0.9025,
+    "valid_acc_std": 0.0
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "seed": 1337,
+      "history": [
+        {
+          "epoch": 0,
+          "valid_acc": 0.3475,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 1,
+          "valid_acc": 0.7108,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 2,
+          "valid_acc": 0.8267,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 3,
+          "valid_acc": 0.8729,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 4,
+          "valid_acc": 0.8844,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 5,
+          "valid_acc": 0.8923,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 6,
+          "valid_acc": 0.8951,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 7,
+          "valid_acc": 0.8975,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 8,
+          "valid_acc": 0.9001,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        },
+        {
+          "epoch": 9,
+          "valid_acc": 0.9025,
+          "target_pred": [
+            2
+          ],
+          "attack_success_rate": 0.0
+        }
+      ],
+      "final": {
+        "valid_acc": 0.9025,
+        "target_pred": [
+          2
+        ],
+        "attack_success_rate": 0.0,
+        "target_class": 2,
+        "base_class": 5
+      }
+    }
+  ],
+  "args": {
+    "pretrained": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-d/pretrained/cifar_clean_resnet20.pt",
+    "poisons": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-d/fc-crafts/D-fc-bird-dog-t4-n5-nowm.pkl",
+    "data_root": "/nfs/hpc/share/chanc7/metapoison/data",
+    "epochs": 10,
+    "lr": 0.001,
+    "batch_size": 128,
+    "clean_per_class": 500,
+    "trials": 1,
+    "seed": 1337,
+    "num_workers": 2,
+    "reset_fc": true,
+    "output": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-d/fc-victims/D-fc-bird-dog-t4-n5-nowm-s0.json"
+  }
+}

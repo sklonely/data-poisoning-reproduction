@@ -1,0 +1,53 @@
+trial 0 | epoch 0 | train_acc 0.4615 | valid_acc 0.5473 | asr 0.0000
+trial 0 | epoch 20 | train_acc 0.9722 | valid_acc 0.7509 | asr 0.0000
+trial 0 | epoch 40 | train_acc 0.9993 | valid_acc 0.8058 | asr 0.0000
+trial 0 | epoch 60 | train_acc 1.0000 | valid_acc 0.8151 | asr 0.0000
+trial 0 | epoch 80 | train_acc 1.0000 | valid_acc 0.8174 | asr 0.0000
+trial 0 | epoch 100 | train_acc 1.0000 | valid_acc 0.8169 | asr 0.0000
+trial 0 | epoch 120 | train_acc 1.0000 | valid_acc 0.8158 | asr 0.0000
+trial 0 | epoch 140 | train_acc 1.0000 | valid_acc 0.8160 | asr 0.0000
+trial 0 | epoch 160 | train_acc 1.0000 | valid_acc 0.8149 | asr 0.0000
+trial 0 | epoch 180 | train_acc 1.0000 | valid_acc 0.8153 | asr 0.0000
+trial 0 | epoch 199 | train_acc 1.0000 | valid_acc 0.8148 | asr 0.0000
+trial 1 | epoch 0 | train_acc 0.4625 | valid_acc 0.5022 | asr 0.0000
+trial 1 | epoch 20 | train_acc 0.9695 | valid_acc 0.7841 | asr 0.0000
+trial 1 | epoch 40 | train_acc 0.9991 | valid_acc 0.8093 | asr 0.0000
+trial 1 | epoch 60 | train_acc 1.0000 | valid_acc 0.8140 | asr 0.0000
+trial 1 | epoch 80 | train_acc 1.0000 | valid_acc 0.8142 | asr 0.0000
+trial 1 | epoch 100 | train_acc 1.0000 | valid_acc 0.8138 | asr 0.0000
+trial 1 | epoch 120 | train_acc 1.0000 | valid_acc 0.8143 | asr 0.0000
+trial 1 | epoch 140 | train_acc 1.0000 | valid_acc 0.8124 | asr 0.0000
+trial 1 | epoch 160 | train_acc 1.0000 | valid_acc 0.8141 | asr 0.0000
+trial 1 | epoch 180 | train_acc 1.0000 | valid_acc 0.8143 | asr 0.0000
+trial 1 | epoch 199 | train_acc 1.0000 | valid_acc 0.8146 | asr 0.0000
+trial 2 | epoch 0 | train_acc 0.4370 | valid_acc 0.4500 | asr 0.0000
+trial 2 | epoch 20 | train_acc 0.9741 | valid_acc 0.7258 | asr 0.0000
+trial 2 | epoch 40 | train_acc 0.9971 | valid_acc 0.8066 | asr 1.0000
+trial 2 | epoch 60 | train_acc 1.0000 | valid_acc 0.8236 | asr 0.0000
+trial 2 | epoch 80 | train_acc 1.0000 | valid_acc 0.8231 | asr 0.0000
+trial 2 | epoch 100 | train_acc 1.0000 | valid_acc 0.8227 | asr 0.0000
+trial 2 | epoch 120 | train_acc 1.0000 | valid_acc 0.8214 | asr 0.0000
+trial 2 | epoch 140 | train_acc 1.0000 | valid_acc 0.8222 | asr 0.0000
+trial 2 | epoch 160 | train_acc 1.0000 | valid_acc 0.8229 | asr 0.0000
+trial 2 | epoch 180 | train_acc 1.0000 | valid_acc 0.8224 | asr 0.0000
+trial 2 | epoch 199 | train_acc 1.0000 | valid_acc 0.8218 | asr 0.0000
+trial 3 | epoch 0 | train_acc 0.4407 | valid_acc 0.4391 | asr 0.0000
+trial 3 | epoch 20 | train_acc 0.9702 | valid_acc 0.7725 | asr 0.0000
+trial 3 | epoch 40 | train_acc 0.9996 | valid_acc 0.8184 | asr 0.0000
+trial 3 | epoch 60 | train_acc 1.0000 | valid_acc 0.8165 | asr 0.0000
+trial 3 | epoch 80 | train_acc 1.0000 | valid_acc 0.8186 | asr 0.0000
+trial 3 | epoch 100 | train_acc 1.0000 | valid_acc 0.8201 | asr 0.0000
+trial 3 | epoch 120 | train_acc 1.0000 | valid_acc 0.8204 | asr 0.0000
+trial 3 | epoch 140 | train_acc 1.0000 | valid_acc 0.8205 | asr 0.0000
+trial 3 | epoch 160 | train_acc 1.0000 | valid_acc 0.8222 | asr 0.0000
+trial 3 | epoch 180 | train_acc 1.0000 | valid_acc 0.8206 | asr 0.0000
+trial 3 | epoch 199 | train_acc 1.0000 | valid_acc 0.8197 | asr 0.0000
+{
+  "n_trials": 4,
+  "valid_acc_mean": 0.817725,
+  "valid_acc_std": 0.003115585819713524,
+  "attack_success_rate_mean": 0.0,
+  "attack_success_rate_std": 0.0
+}
+ 0.0
+}

@@ -1,0 +1,100 @@
+{
+  "assets": [],
+  "duration_ms": 904,
+  "end_time_ms": 1778102561148,
+  "key": "895e5502dbb149f79e4b0e01c845d9e3",
+  "name": "61541-895e5",
+  "others": {
+    "command": "python victim.py A15 -artifactroot /nfs/hpc/share/chanc7/metapoison/outputs-phase-a -workspace local -craftproj craft-A15 -Xvictimproj victim-A15-export -gpu 0 -craftsteps 60 -savepoisondataset -poisondatasetfile /nfs/hpc/share/chanc7/metapoison/exports/A15-poisondataset",
+    "crafturl": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-a/local/craft-A15/61541150206241c79329c6376d33d8c5"
+  },
+  "params": {
+    "Xaugment": false,
+    "Xbatchsize": false,
+    "Xlrnrate": false,
+    "Xnet": null,
+    "Xnpoison": null,
+    "Xschedule": false,
+    "Xtag": null,
+    "Xvictimproj": "victim-A15-export",
+    "Xweightdecay": false,
+    "artifactroot": "/nfs/hpc/share/chanc7/metapoison/outputs-phase-a",
+    "augment": false,
+    "batchsize": 125,
+    "bit64": false,
+    "craftkey": "61541150206241c79329c6376d33d8c5",
+    "craftproj": "craft-A15",
+    "craftrate": 200,
+    "craftstep": 60,
+    "craftsteps": [
+      60
+    ],
+    "crdropperiod": 20,
+    "epochmass": false,
+    "eps": 8,
+    "epscolor": [
+      0.04,
+      0.04,
+      0.04
+    ],
+    "gpu": [
+      0
+    ],
+    "gridshape": [
+      10,
+      10,
+      10
+    ],
+    "justtrain": 0,
+    "logfeat": false,
+    "logperiod": 10,
+    "lrnrate": 0.1,
+    "multiclasspoison": false,
+    "nadapt": 2,
+    "nbatch": 400,
+    "ncraftstep": 61,
+    "net": "VGG13BN",
+    "npoison": 5000,
+    "nreplay": 6,
+    "ntarget": 1,
+    "ntrial": 1,
+    "nvalidpoints": 5,
+    "nvictimepoch": 200,
+    "objective": "cwT",
+    "optimizer": "sgd",
+    "poisonclass": 5,
+    "poisondatasetfile": "/nfs/hpc/share/chanc7/metapoison/exports/A15-poisondataset",
+    "pretrain": "",
+    "restartperiod": 9999,
+    "savepoisondataset": true,
+    "saveweights": false,
+    "schedule": [
+      100,
+      150,
+      200
+    ],
+    "skipvictim": true,
+    "smoothcoef": 1.0,
+    "stagger": 1,
+    "tag": "",
+    "targetclass": 2,
+    "targetids": [
+      0
+    ],
+    "trajectory": "clean",
+    "trial": 0,
+    "uid": "A15",
+    "victimproj": "victim-A15-export",
+    "warmupperiod": 5,
+    "watermark": false,
+    "weightdecay": false,
+    "weightset": "",
+    "weightsettrain": false,
+    "workspace": "local",
+    "ytargetadv": 5
+  },
+  "project_name": "victim-A15-export",
+  "start_time_ms": 1778102560244,
+  "tags": [],
+  "workspace": "local"
+}

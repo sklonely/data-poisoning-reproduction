@@ -1,0 +1,6 @@
+numpy<1.19
+matplotlib<3.4
+Pillow<9
+mpi4py==3.0.3
+tensorflow-gpu==1.14.0
+tensorflow-probability==0.7.0

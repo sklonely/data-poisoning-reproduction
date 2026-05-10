@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+
+# Virtualenvs
+.venv/
+.venv-*/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Papers (large PDFs — not redistributable)
+*.pdf
+!report/CHECKPOINT_2.pdf
+
+# CIFAR-10 (downloadable from torchvision / official source)
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+
+# Local experiment scratch
+runs-local/
+
+# Large HPC artifact dumps (poison checkpoints, model weights, intermediate outputs)
+hpc-results/exports/
+hpc-results/outputs/
+hpc-results/outputs-v2/
+hpc-results/round1-job20240192/
+hpc-results/round2-job20241084/
+hpc-results/ablation-aug/
+hpc-results/local-round2-extra/
+hpc-results/local-round2-extra-trials.ps1
+hpc-results/local-round2-extra.log
+hpc-results/local-smoke.json
+hpc-results/fig4-windows.log
+hpc-results/fig4-windows.log.err
+hpc-results/fig4-windows.err
+hpc-results/baseline-windows.log
+hpc-results/baseline-plane.log
+
+# Heavy poison artifacts inside staging — keep metrics + meta, drop the rest
+hpc-results/staging-temp/**/assets/
+hpc-results/staging-temp/**/figures/
+hpc-results/staging-temp/**/*.pkl
+hpc-results/staging-temp/**/*.npy
+hpc-results/staging-temp/**/*.ckpt*
+
+# Phase-D scratch
+hpc-results/phase-d-fc-victims/
+
+# Large pickle / model files in general
+*.pkl
+*.ckpt
+*.ckpt.*
+*.h5
+
+# Large paper page renders (we keep the cropped panel only)
+report/figures/paper_p*.png
+
+# OS-generated
+desktop.ini
