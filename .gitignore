@@ -24,9 +24,11 @@ papers/
 !slides/CHECKPOINT_2.pdf
 
 # Model checkpoints / poisoned datasets — too big for plain git
-# (track the dropzone with a README, but ignore the actual artefact files)
+# (track the dropzone metadata, but ignore the actual artefact files)
 checkpoints/*
 !checkpoints/README.md
+!checkpoints/MANIFEST.md
+!checkpoints/SHA256SUMS
 
 # CIFAR-10 (downloadable from torchvision / official source)
 data/cifar-10-batches-py/
