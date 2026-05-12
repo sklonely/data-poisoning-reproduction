@@ -44,34 +44,18 @@ aug_on_asr, aug_on_n = asr_and_n(ROUND2_TORCH)        # 1/3 = 0.333
 aug_off_asr, aug_off_n = asr_and_n(ABLATION_B)        # 3/3 = 1.0
 rerun_a_asr, rerun_a_n = asr_and_n(ABLATION_A)        # 0/3 = 0.0 (footnote only)
 
-labels = ['Augmentation ON\n(random crop + flip)', 'Augmentation OFF']
+labels = ['Augmentation ON', 'Augmentation OFF']
 asrs = [aug_on_asr * 100, aug_off_asr * 100]
-ns = [aug_on_n, aug_off_n]
 
-fig, ax = plt.subplots(figsize=(6.5, 4.6))
+fig, ax = plt.subplots(figsize=(5.5, 4.2))
 bars = ax.bar(labels, asrs, color=['#9e9e9e', '#3a7d3a'], width=0.55)
 ax.set_ylabel('Attack Success Rate (%)')
 ax.set_ylim(0, 115)
-ax.set_title('Augmentation drives the ASR gap — not the framework\n'
-             'Same Round 2 poison (ResNet20, dog→bird, 5000 poisons = 10% budget)\n'
-             f'PyTorch victim, n={aug_on_n} from-scratch 200-epoch trials, only the augmentation flag changes',
-             fontsize=10)
-for bar, val, n in zip(bars, asrs, ns):
+ax.set_title('Augmentation drives the ASR gap', fontsize=13)
+for bar, val in zip(bars, asrs):
     ax.text(bar.get_x() + bar.get_width() / 2, val + 2.5, f'{val:.0f}%',
-            ha='center', va='bottom', fontsize=14, fontweight='bold')
-    ax.text(bar.get_x() + bar.get_width() / 2, 3, f'n={n}',
-            ha='center', va='bottom', fontsize=9, color='white', fontweight='bold')
-
-ax.axhline(100, color='#3a7d3a', linestyle=':', alpha=0.4)
+            ha='center', va='bottom', fontsize=15, fontweight='bold')
 ax.grid(axis='y', alpha=0.3)
-
-# Footnote: the aug-ON regime is borderline
-fig.text(0.5, -0.02,
-         f'“Augmentation ON” is a borderline regime: an independent re-run of the exact same config '
-         f'(ablation job 20290350, cond. A) got {int(round(rerun_a_asr*rerun_a_n))}/{rerun_a_n} — '
-         f'read the 33% as a noisy estimate of “≈0”, not a stable value.',
-         ha='center', va='top', fontsize=7.5, style='italic', wrap=True)
-
 fig.tight_layout()
 out = OUT / 'fig_augmentation_ablation.png'
 fig.savefig(out, dpi=150, bbox_inches='tight')
