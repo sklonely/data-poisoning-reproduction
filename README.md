@@ -86,7 +86,10 @@ and `.venv-torch`. See [docs/osu-hpc.md](docs/osu-hpc.md) for the partition/QOS 
 
 The PyTorch victim was a **deliberate consistency check**, not a port-then-deploy.
 The augmentation ablation (job 20290350) showed that the TF↔PyTorch ASR gap collapses
-once augmentation is held constant; see [slides/CHECKPOINT_2_zh.md](slides/CHECKPOINT_2_zh.md) for the narrative.
+once augmentation is held constant — same Round 2 poison, same ResNet20 victim,
+only the augmentation flag toggled: ASR 33% (aug ON) → 100% (aug OFF). See
+[report/figures/fig_augmentation_ablation.png](report/figures/fig_augmentation_ablation.png)
+and [slides/CHECKPOINT_2_zh.md](slides/CHECKPOINT_2_zh.md) for the narrative.
 
 ---
 
