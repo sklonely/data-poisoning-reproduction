@@ -73,17 +73,20 @@ _t2      = target_id 2 (which test-set image is the target; we ran 0..4 = 5 targ
 _s5      = seed index 5 (which random seed for victim training; we ran 0..5 = 6 seeds)
 ```
 
-Each cell × target × seed combination is **one ASR vote**. For ConvNetBN our
-planned n is 30 (5 targets × 6 seeds). Actual counts:
+Each cell × target × seed combination is **one ASR vote**. For ConvNetBN we
+report **n=30 per cell** (5 targets × 6 seeds).
 
-| Cells   | Votes | Why                                                                                  |
-|---------|-------|--------------------------------------------------------------------------------------|
-| A01–A04 | 36    | An early target_id=0 batch (job 20259324) wrote 6 victims before the staging batch re-ran target_id=0 with another 6 — so target_id=0 ends up with 12 votes here, t1–t4 each with 6 |
-| A05–A10 | 30    | clean (5 targets × 6 seeds, no early-batch duplicates)                               |
-
-For A01–A04 the duplicated target_id=0 votes are not formally verified to be
-seed-deterministic across the two batches, but empirically all 12 predictions
-match within each cell, so the extra 6 votes have **no effect on reported ASR**.
+On disk, cells A01–A04 actually have **36** victim runs: an early target_id=0
+batch (job 20259324) wrote 6 victims before the staging batch re-ran
+target_id=0 with another 6, so target_id=0 ends up with 12 runs there (t1–t4
+have 6 each). The figure builder
+[report/build_fig4_convnetbn.py](../report/build_fig4_convnetbn.py)
+**uses only the staging target_id=0 batch** (and caps every target at 6 seeds)
+so all cells report a uniform n=30. The dropped early-batch votes agree with
+the staging votes within each cell (all 12 predictions match), so this is a
+cosmetic uniformity choice, not a result change — the only number that moves is
+dog→bird @0.1%, which is 3/30 = 10% under the n=30 design vs 3/36 ≈ 8% if you
+keep the extras.
 
 Craft jobs are similarly named `craft-A03_t2` (one craft per target, reused across
 all 6 seeds — crafting is the expensive part, victim training is cheap).

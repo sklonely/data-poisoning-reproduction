@@ -12,15 +12,15 @@ behind our CS 539 final-project reproduction. The focus is **Figure 4** of the p
 
 ## Headline result
 
-ConvNetBN, CIFAR-10, **n=30–36 votes per cell** (planned 30 = 5 target images
-× 6 victim seeds; paper uses n=60 = 10 × 6). A01–A04 actually have n=36 because
-target_id=0 was run twice (an early batch left 6 extra votes); the duplicates
-agree with the second batch so the reported ASR is unchanged. A05–A10 are
-clean n=30. 0% baseline is a separately-trained clean victim, not extrapolation.
+ConvNetBN, CIFAR-10, **n=30 votes per cell** (5 target images × 6 victim seeds;
+paper uses n=60 = 10 × 6). 0% baseline is a separately-trained clean victim,
+not extrapolation. (We also have 6 extra target_id=0 victims for A01–A04 from
+an earlier batch — they agree with the n=30 set and are excluded from the
+figure so every cell reports a uniform n=30; see [docs/CELLS.md](docs/CELLS.md).)
 
 | Class pair      | 0%  | 0.01% (5) | 0.1% (50) | 1% (500) | 5% (2500) | 10% (5000) |
 |-----------------|-----|-----------|-----------|----------|-----------|------------|
-| dog → bird      | 0%  |   0%      |   8%      |  100%    |  100%     |   90%      |
+| dog → bird      | 0%  |   0%      |  10%      |  100%    |  100%     |   90%      |
 | frog → airplane | 0%  |   0%      |   7%      |   63%    |   80%     |   83%      |
 
 Direction-of-effect matches the paper Fig 4 ConvNetBN curve closely. See
